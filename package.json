@@ -1,0 +1,26 @@
+{
+  "name": "cn_shop_tests",
+  "version": "1.0.0",
+  "description": "Testing of eshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "htmlgentest": "npx cypress run --browser chrome & node index.js"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "author": "Michal Hřešil",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber-html-reporter": "^5.5.0",
+    "cypress": "^10.3.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
