@@ -1,0 +1,188 @@
+[
+  {
+    "description": "    Testing of navigation bar and it's components on from home page\n    Pre Condition: Opening home page",
+    "keyword": "Feature",
+    "name": "'Test suite #1 - Testing navigation bar'",
+    "line": 1,
+    "id": "'test-suite-#1---testing-navigation-bar'",
+    "tags": [],
+    "uri": "navBarTesting.feature",
+    "elements": [
+      {
+        "id": "'test-suite-#1---testing-navigation-bar';1#-clicking-on-logo-opens-homepage",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "1# Clicking on logo opens homepage",
+        "tags": [
+          {
+            "name": "@logobutton",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "Clicking on page logo",
+            "result": {
+              "status": "passed",
+              "duration": 1633000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Successfull redirect on home page",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "'test-suite-#1---testing-navigation-bar';clicking-on-home-button-opens",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Clicking on Home button opens",
+        "tags": [
+          {
+            "name": "@homebutton",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "Clicking on button named \"Home\"",
+            "result": {
+              "status": "passed",
+              "duration": 1412000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Successfull redirect on \"http://uiautomation.domain.local/\"",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "'test-suite-#1---testing-navigation-bar';clicking-on-store-button-opens",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Clicking on Store button opens",
+        "tags": [
+          {
+            "name": "@homebutton",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "Clicking on button named \"Store\"",
+            "result": {
+              "status": "passed",
+              "duration": 1569000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Successfull redirect on \"http://uiautomation.domain.local/store/\"",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "'test-suite-#1---testing-navigation-bar';clicking-on-men-button-opens",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Clicking on Men button opens",
+        "tags": [
+          {
+            "name": "@homebutton",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "Clicking on button named \"Men\"",
+            "result": {
+              "status": "passed",
+              "duration": 1379000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Successfull redirect on \"http://uiautomation.domain.local/product-category/men/\"",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "'test-suite-#1---testing-navigation-bar';clicking-on-women-button-opens",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Clicking on Women button opens",
+        "tags": [
+          {
+            "name": "@homebutton",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "Clicking on button named \"Women\"",
+            "result": {
+              "status": "passed",
+              "duration": 1391000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Successfull redirect on \"http://uiautomation.domain.local/product-category/women/\"",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
