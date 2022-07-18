@@ -1,0 +1,77 @@
+[
+  {
+    "description": "    Testing cart adding from main page",
+    "keyword": "Feature",
+    "name": "Test suite - main page cart testing",
+    "line": 1,
+    "id": "test-suite---main-page-cart-testing",
+    "tags": [],
+    "uri": "cartAdding.feature",
+    "elements": [
+      {
+        "id": "test-suite---main-page-cart-testing;put-all-json-provided-items-into-the-cart",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Put all json provided items into the cart",
+        "tags": [
+          {
+            "name": "@cartTest",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Visit main page",
+            "result": {
+              "status": "passed",
+              "duration": 960000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Load data",
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Put all the items from json into the cart",
+            "result": {
+              "status": "failed",
+              "duration": 4332000000,
+              "error_message": "ReferenceError: getNavLogo is not defined\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\homepage_testing\\cartAdding.feature:164:13)\nFrom previous event:\n    at Context.thenFn (http://uiautomation.domain.local/__cypress/runner/cypress_runner.js:153485:63)\n    at Context.then (http://uiautomation.domain.local/__cypress/runner/cypress_runner.js:153937:21)\n    at Context.<anonymous> (http://uiautomation.domain.local/__cypress/runner/cypress_runner.js:171678:19)\n    at http://uiautomation.domain.local/__cypress/runner/cypress_runner.js:170365:15\nFrom previous event:\n    at CommandQueue.runCommand (http://uiautomation.domain.local/__cypress/runner/cypress_runner.js:170344:17)\n    at next (http://uiautomation.domain.local/__cypress/runner/cypress_runner.js:170496:19)\n    at http://uiautomation.domain.local/__cypress/runner/cypress_runner.js:170525:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Validate that all items are present in cart",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Validate if total price is equal to sum of prices",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

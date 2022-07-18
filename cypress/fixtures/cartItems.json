@@ -1,0 +1,9 @@
+{
+    "items":[
+        {"name": "DNK Black Shoes", "quantity": 2},
+        {"name": "DNK Yellow Shoes", "quantity": 1},
+        {"name": "DNK Blue Shoes ", "quantity": 3},
+        {"name": "Blue Denim Jeans", "quantity": 1},
+        {"name": "Lemons Tshirt", "quantity": 5}
+    ]
+}

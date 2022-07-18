@@ -1,0 +1,233 @@
+[
+  {
+    "description": "    Test of main home page elements\n    Pre-Condition: open home page",
+    "keyword": "Feature",
+    "name": "Test suite - home page testing",
+    "line": 1,
+    "id": "test-suite---home-page-testing",
+    "tags": [],
+    "uri": "pageComponents.feature",
+    "elements": [
+      {
+        "id": "test-suite---home-page-testing;click-on-go-shopping-button-open-store-page",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Click on Go shopping button open store page",
+        "tags": [
+          {
+            "name": "@clickGoShoppingButton",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Opening Eshop url",
+            "result": {
+              "status": "passed",
+              "duration": 1262000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Should be on Eshop url",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Clicking on go shopping button",
+            "result": {
+              "status": "passed",
+              "duration": 679000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Successfull redirect to store page",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---home-page-testing;clicking-on-accessories-element-opens-store-accessories-page",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Clicking on Accessories element opens store Accessories page",
+        "tags": [
+          {
+            "name": "@clickElement",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Opening Eshop url",
+            "result": {
+              "status": "passed",
+              "duration": 731000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Should be on Eshop url",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "Clicking on \"1\". element named \"Accessories\"",
+            "result": {
+              "status": "passed",
+              "duration": 611000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Successfull redirect to \"http://uiautomation.domain.local/product-category/accessories/\"",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---home-page-testing;clicking-on-men-products-element-opens-store-men-products-page",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Clicking on Men products element opens store Men products page",
+        "tags": [
+          {
+            "name": "@clickElement",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Opening Eshop url",
+            "result": {
+              "status": "passed",
+              "duration": 677000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Should be on Eshop url",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "Clicking on \"2\". element named \"Men products\"",
+            "result": {
+              "status": "passed",
+              "duration": 619000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Successfull redirect to \"http://uiautomation.domain.local/product-category/men/\"",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---home-page-testing;clicking-on-women-products-element-opens-store-women-products-page",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Clicking on Women products element opens store Women products page",
+        "tags": [
+          {
+            "name": "@clickElement",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Opening Eshop url",
+            "result": {
+              "status": "passed",
+              "duration": 728000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Should be on Eshop url",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "Clicking on \"3\". element named \"Women products\"",
+            "result": {
+              "status": "passed",
+              "duration": 653000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Successfull redirect to \"http://uiautomation.domain.local/product-category/women/\"",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

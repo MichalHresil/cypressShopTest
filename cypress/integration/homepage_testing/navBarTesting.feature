@@ -1,23 +1,36 @@
-Feature: 'Test suite #1 - Testing navigation bar'
+Feature: 'Test suite - Testing navigation bar'
 
     Testing of navigation bar and it's components on from home page
     Pre Condition: Opening home page
 
+    Background: Opening CN Group E-shop site
+        Given Opening Eshop site url
+        Then Should be on Eshop site
+
     @logobutton
-    Scenario: 1# Clicking on logo opens homepage
+    Scenario: Clicking on logo opens homepage
         Given Clicking on page logo
         Then Successfull redirect on home page
 
-    @homebutton
-    Scenario Outline: Clicking on <btnName> button opens 
+    @navbuttons
+    Scenario Outline: Clicking on <btnName> button opens <btnPage> page
         Given Clicking on button named "<btnName>"
         Then Successfull redirect on "<url>"
 
         Examples:
-            | btnName   | url                                                           |
-            | Home      | http://uiautomation.domain.local/                             |
-            | Store     | http://uiautomation.domain.local/store/                       |
-            | Men       | http://uiautomation.domain.local/product-category/men/        |
-            | Women     | http://uiautomation.domain.local/product-category/women/      |
+            | btnName     | url                                                            | btnPage       |
+            | Home        | http://uiautomation.domain.local/                              | Home          |
+            | Store       | http://uiautomation.domain.local/store/                        | Store         |
+            | Men         | http://uiautomation.domain.local/product-category/men/         | Men product   |
+            | Women       | http://uiautomation.domain.local/product-category/women/       | Women product |
+            | Accessories | http://uiautomation.domain.local/product-category/accessories/ | Accessories   |
+            | About       | http://uiautomation.domain.local/about/                        | About us      |
+            | Contact Us  | http://uiautomation.domain.local/contact-us/                   | Contact us    |
+            | Account     | http://uiautomation.domain.local/my-account/                   | My Account    |
+
+    @cartbutton
+    Scenario: Clicking on Cart button opens shopping cart page
+        Given Clicking on button with cart icon
+        Then Successfull redirect on cart page
 
 
