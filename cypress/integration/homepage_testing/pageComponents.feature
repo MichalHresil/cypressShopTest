@@ -4,8 +4,8 @@ Feature: Test suite - home page testing
     Pre-Condition: open home page
 
     Background: Opening CN Eshop home page
-        Given Opening Eshop url
-        Then Should be on Eshop url
+        Given Visit main page
+        Then Should be on Eshop url and load data
 
     @clickGoShoppingButton
     Scenario: Click on Go shopping button open store page
@@ -22,4 +22,10 @@ Feature: Test suite - home page testing
             | 1     | Accessories    | http://uiautomation.domain.local/product-category/accessories/ |
             | 2     | Men products   | http://uiautomation.domain.local/product-category/men/         |
             | 3     | Women products | http://uiautomation.domain.local/product-category/women/       |
+
+    @cartTest
+    Scenario: Put all json provided items into the cart
+        Given Put all the items from json into the cart
+        And Validate that all items are present in cart
+        Then Validate if total price is equal to sum of prices
 

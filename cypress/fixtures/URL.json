@@ -1,4 +1,5 @@
 {
   "homeUrl": "http://uiautomation.domain.local/",
-  "cartUrl": "http://uiautomation.domain.local/cart/"
+  "cartUrl": "http://uiautomation.domain.local/cart/",
+  "checkoutUrl": "http://uiautomation.domain.local/checkout/"
 }

@@ -6,15 +6,19 @@ import HomePage from "../../../support/pageClasses/HomePage"
 const homepage = new HomePage()
 
 //background
-Given('Opening Eshop url', function(){
+Given('Visit main page', function(){
     cy.fixture("URL").then(function(url) {
         this.url = url
         cy.visit(this.url.homeUrl)
     })
 })
 
-Then('Should be on Eshop url', function(){
+Then('Should be on Eshop url and load data', function(){
     cy.url().should("deep.equal", this.url.homeUrl)
+
+    cy.fixture("cartItems").then(function(obj) {
+        this.items = obj.items
+    })
 })  
 
 
@@ -36,3 +40,29 @@ Then('Successfull redirect to {string}', function(url){
     cy.url().should("deep.equal", url)
 })
 
+
+//item adding
+Given("Put all the items from json into the cart", function(){
+    this.items.forEach(item => {
+        homepage.addItemToCartHomepage(item.name, item.quantity)
+    });
+})
+
+And('Validate that all items are present in cart', function(){
+    homepage.getCartButtonNavBar().click({force:true})
+    homepage.getAllSubPricesFromCart().should("have.length", 4)
+})
+
+Then('Validate if total price is equal to sum of prices', function(){
+    var total = 0
+    homepage.getAllSubPricesFromCart().each(($el, index, $list)=>{
+        const number = parseInt($el.text().replace(/^\D+/g, ""))
+        total += number
+    })
+
+   homepage.getCartSubtotal().then((el)=>{
+        var totalCart = parseInt(el.text().replace(/^\D+/g, ""))
+        expect(total).to.eql(totalCart)
+   })
+
+})

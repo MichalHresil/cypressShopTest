@@ -7,7 +7,7 @@ class HomePage {
         return cy.get('.main-navigation .menu-item').contains(name)
     }
     getCartButtonNavBar(){
-        return cy.get(".ast-site-header-cart-li ")
+        return cy.get(".ast-site-header-cart-li a")
     }
 
     getButtonFooterByName(name){
@@ -27,6 +27,8 @@ class HomePage {
     }
 
 
+
+
     addItemToCartHomepage(itemName, ammount){
         var index
         var am = ammount || 1
@@ -37,6 +39,7 @@ class HomePage {
         const validForm = '.variations_form'
         const cartButton = '.cart button'
         const select = '.value select'
+        const navlogo = 'div.site-header-section-left a'
 
         cy.get(name).each(($el, i, list)=>{
             const text = $el.text()
@@ -69,11 +72,12 @@ class HomePage {
 
         cy.fixture("URL").then(function(url) {
             cy.url().then((getUrl)=>{
-                if(getUrl !== this.url.HomePage){
-                    getNavLogo().click()
+                if(getUrl !== url.HomePage){
+                    cy.get(navlogo).eq(0).click()
                 }
             })
         })
+
     }
 
 

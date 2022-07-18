@@ -23,7 +23,7 @@
             "name": "Opening CN Eshop home url",
             "result": {
               "status": "passed",
-              "duration": 11006000000
+              "duration": 754000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "Should be on Eshop home page",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 10000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "Clicking on button named \"Home\"",
             "result": {
               "status": "passed",
-              "duration": 1441000000
+              "duration": 1646000000
             }
           },
           {
@@ -53,8 +53,8 @@
             "name": "Successfull redirect on \"http://uiautomation.domain.local/\"",
             "result": {
               "status": "failed",
-              "duration": 1000000,
-              "error_message": "AssertionError: Timed out retrying after 10000ms: expected 'http://uiautomation.domain.local/home/' to deeply equal 'http://uiautomation.domain.local/'\n    + expected - actual\n\n    -'http://uiautomation.domain.local/home/'\n    +'http://uiautomation.domain.local/'\n\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\homepage_testing\\footerTesting.feature:60:12)\n    at Context.resolveAndRunStepDefinition (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\homepage_testing\\footerTesting.feature:10517:29)\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\homepage_testing\\footerTesting.feature:9838:35)"
+              "duration": 10016000000,
+              "error_message": "AssertionError: Timed out retrying after 10000ms: expected 'http://uiautomation.domain.local/home/' to deeply equal 'http://uiautomation.domain.local/'\n    + expected - actual\n\n    -'http://uiautomation.domain.local/home/'\n    +'http://uiautomation.domain.local/'\n\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\homepage_testing\\footerTesting.feature:60:12)\n    at Context.resolveAndRunStepDefinition (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\homepage_testing\\footerTesting.feature:10609:29)\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\homepage_testing\\footerTesting.feature:9930:35)"
             }
           }
         ]
@@ -74,7 +74,7 @@
             "name": "Opening CN Eshop home url",
             "result": {
               "status": "passed",
-              "duration": 912000000
+              "duration": 1079000000
             }
           },
           {
@@ -84,7 +84,7 @@
             "name": "Should be on Eshop home page",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 11000000
             }
           },
           {
@@ -94,7 +94,7 @@
             "name": "Clicking on button named \"About\"",
             "result": {
               "status": "passed",
-              "duration": 946000000
+              "duration": 764000000
             }
           },
           {
@@ -104,7 +104,7 @@
             "name": "Successfull redirect on \"http://uiautomation.domain.local/about/\"",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 16000000
             }
           }
         ]
@@ -124,7 +124,7 @@
             "name": "Opening CN Eshop home url",
             "result": {
               "status": "passed",
-              "duration": 701000000
+              "duration": 693000000
             }
           },
           {
@@ -134,7 +134,7 @@
             "name": "Should be on Eshop home page",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 11000000
             }
           },
           {
@@ -144,7 +144,7 @@
             "name": "Clicking on button named \"My account\"",
             "result": {
               "status": "passed",
-              "duration": 586000000
+              "duration": 547000000
             }
           },
           {
@@ -154,7 +154,7 @@
             "name": "Successfull redirect on \"http://uiautomation.domain.local/my-account/\"",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 11000000
             }
           }
         ]
@@ -174,7 +174,7 @@
             "name": "Opening CN Eshop home url",
             "result": {
               "status": "passed",
-              "duration": 721000000
+              "duration": 731000000
             }
           },
           {
@@ -184,7 +184,7 @@
             "name": "Should be on Eshop home page",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 10000000
             }
           },
           {
@@ -194,7 +194,7 @@
             "name": "Clicking on button named \"Cart\"",
             "result": {
               "status": "passed",
-              "duration": 1671000000
+              "duration": 1305000000
             }
           },
           {
@@ -204,7 +204,7 @@
             "name": "Successfull redirect on \"http://uiautomation.domain.local/cart/\"",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 34000000
             }
           }
         ]
@@ -224,7 +224,7 @@
             "name": "Opening CN Eshop home url",
             "result": {
               "status": "passed",
-              "duration": 867000000
+              "duration": 815000000
             }
           },
           {
@@ -234,7 +234,7 @@
             "name": "Should be on Eshop home page",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 9000000
             }
           },
           {
@@ -254,7 +254,7 @@
             "name": "Successfull redirect on \"http://uiautomation.domain.local/contact-us/\"",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 9000000
             }
           }
         ]

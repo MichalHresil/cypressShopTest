@@ -38,7 +38,7 @@ Then('Successfull redirect on {string}', function(url){
 
 //cart scenario
 Given('Clicking on button with cart icon', function(){
-    homepage.getCartButtonNavBar().click()
+    homepage.getCartButtonNavBar().click({force:true})
 })
 
 Then('Successfull redirect on cart page', function(){

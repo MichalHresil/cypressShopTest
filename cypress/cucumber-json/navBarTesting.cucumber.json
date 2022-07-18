@@ -28,7 +28,7 @@
             "name": "Opening Eshop site url",
             "result": {
               "status": "passed",
-              "duration": 1079000000
+              "duration": 1141000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "Should be on Eshop site",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 11000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "Clicking on page logo",
             "result": {
               "status": "passed",
-              "duration": 705000000
+              "duration": 768000000
             }
           },
           {
@@ -58,7 +58,7 @@
             "name": "Successfull redirect on home page",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 6000000
             }
           }
         ]
@@ -83,7 +83,7 @@
             "name": "Opening Eshop site url",
             "result": {
               "status": "passed",
-              "duration": 711000000
+              "duration": 722000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "Should be on Eshop site",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 2000000
             }
           },
           {
@@ -103,7 +103,7 @@
             "name": "Clicking on button named \"Home\"",
             "result": {
               "status": "passed",
-              "duration": 745000000
+              "duration": 692000000
             }
           },
           {
@@ -113,7 +113,7 @@
             "name": "Successfull redirect on \"http://uiautomation.domain.local/\"",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 2000000
             }
           }
         ]
@@ -123,226 +123,6 @@
         "keyword": "Scenario",
         "line": 23,
         "name": "Clicking on Store button opens Store page",
-        "tags": [
-          {
-            "name": "@navbuttons",
-            "line": 15
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "Opening Eshop site url",
-            "result": {
-              "status": "passed",
-              "duration": 705000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "Should be on Eshop site",
-            "result": {
-              "status": "passed",
-              "duration": 9000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 17,
-            "name": "Clicking on button named \"Store\"",
-            "result": {
-              "status": "passed",
-              "duration": 602000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 18,
-            "name": "Successfull redirect on \"http://uiautomation.domain.local/store/\"",
-            "result": {
-              "status": "passed",
-              "duration": 12000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "'test-suite---testing-navigation-bar';clicking-on-men-button-opens-men-product-page",
-        "keyword": "Scenario",
-        "line": 24,
-        "name": "Clicking on Men button opens Men product page",
-        "tags": [
-          {
-            "name": "@navbuttons",
-            "line": 15
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "Opening Eshop site url",
-            "result": {
-              "status": "passed",
-              "duration": 678000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "Should be on Eshop site",
-            "result": {
-              "status": "passed",
-              "duration": 10000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 17,
-            "name": "Clicking on button named \"Men\"",
-            "result": {
-              "status": "passed",
-              "duration": 607000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 18,
-            "name": "Successfull redirect on \"http://uiautomation.domain.local/product-category/men/\"",
-            "result": {
-              "status": "passed",
-              "duration": 8000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "'test-suite---testing-navigation-bar';clicking-on-women-button-opens-women-product-page",
-        "keyword": "Scenario",
-        "line": 25,
-        "name": "Clicking on Women button opens Women product page",
-        "tags": [
-          {
-            "name": "@navbuttons",
-            "line": 15
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "Opening Eshop site url",
-            "result": {
-              "status": "passed",
-              "duration": 689000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "Should be on Eshop site",
-            "result": {
-              "status": "passed",
-              "duration": 9000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 17,
-            "name": "Clicking on button named \"Women\"",
-            "result": {
-              "status": "passed",
-              "duration": 595000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 18,
-            "name": "Successfull redirect on \"http://uiautomation.domain.local/product-category/women/\"",
-            "result": {
-              "status": "passed",
-              "duration": 9000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "'test-suite---testing-navigation-bar';clicking-on-accessories-button-opens-accessories-page",
-        "keyword": "Scenario",
-        "line": 26,
-        "name": "Clicking on Accessories button opens Accessories page",
-        "tags": [
-          {
-            "name": "@navbuttons",
-            "line": 15
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "Opening Eshop site url",
-            "result": {
-              "status": "passed",
-              "duration": 659000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "Should be on Eshop site",
-            "result": {
-              "status": "passed",
-              "duration": 9000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 17,
-            "name": "Clicking on button named \"Accessories\"",
-            "result": {
-              "status": "passed",
-              "duration": 654000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 18,
-            "name": "Successfull redirect on \"http://uiautomation.domain.local/product-category/accessories/\"",
-            "result": {
-              "status": "passed",
-              "duration": 9000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "'test-suite---testing-navigation-bar';clicking-on-about-button-opens-about-us-page",
-        "keyword": "Scenario",
-        "line": 27,
-        "name": "Clicking on About button opens About us page",
         "tags": [
           {
             "name": "@navbuttons",
@@ -368,7 +148,227 @@
             "name": "Should be on Eshop site",
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "Clicking on button named \"Store\"",
+            "result": {
+              "status": "passed",
+              "duration": 646000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Successfull redirect on \"http://uiautomation.domain.local/store/\"",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "'test-suite---testing-navigation-bar';clicking-on-men-button-opens-men-product-page",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Clicking on Men button opens Men product page",
+        "tags": [
+          {
+            "name": "@navbuttons",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Opening Eshop site url",
+            "result": {
+              "status": "passed",
+              "duration": 802000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Should be on Eshop site",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "Clicking on button named \"Men\"",
+            "result": {
+              "status": "passed",
+              "duration": 684000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Successfull redirect on \"http://uiautomation.domain.local/product-category/men/\"",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "'test-suite---testing-navigation-bar';clicking-on-women-button-opens-women-product-page",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Clicking on Women button opens Women product page",
+        "tags": [
+          {
+            "name": "@navbuttons",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Opening Eshop site url",
+            "result": {
+              "status": "passed",
+              "duration": 720000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Should be on Eshop site",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "Clicking on button named \"Women\"",
+            "result": {
+              "status": "passed",
+              "duration": 665000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Successfull redirect on \"http://uiautomation.domain.local/product-category/women/\"",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "'test-suite---testing-navigation-bar';clicking-on-accessories-button-opens-accessories-page",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Clicking on Accessories button opens Accessories page",
+        "tags": [
+          {
+            "name": "@navbuttons",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Opening Eshop site url",
+            "result": {
+              "status": "passed",
+              "duration": 683000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Should be on Eshop site",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "Clicking on button named \"Accessories\"",
+            "result": {
+              "status": "passed",
+              "duration": 569000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Successfull redirect on \"http://uiautomation.domain.local/product-category/accessories/\"",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "'test-suite---testing-navigation-bar';clicking-on-about-button-opens-about-us-page",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Clicking on About button opens About us page",
+        "tags": [
+          {
+            "name": "@navbuttons",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Opening Eshop site url",
+            "result": {
+              "status": "passed",
+              "duration": 637000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Should be on Eshop site",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
             }
           },
           {
@@ -378,7 +378,7 @@
             "name": "Clicking on button named \"About\"",
             "result": {
               "status": "passed",
-              "duration": 726000000
+              "duration": 985000000
             }
           },
           {
@@ -388,7 +388,7 @@
             "name": "Successfull redirect on \"http://uiautomation.domain.local/about/\"",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 2000000
             }
           }
         ]
@@ -413,7 +413,7 @@
             "name": "Opening Eshop site url",
             "result": {
               "status": "passed",
-              "duration": 679000000
+              "duration": 695000000
             }
           },
           {
@@ -423,7 +423,7 @@
             "name": "Should be on Eshop site",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 2000000
             }
           },
           {
@@ -433,7 +433,7 @@
             "name": "Clicking on button named \"Contact Us\"",
             "result": {
               "status": "passed",
-              "duration": 552000000
+              "duration": 620000000
             }
           },
           {
@@ -443,7 +443,7 @@
             "name": "Successfull redirect on \"http://uiautomation.domain.local/contact-us/\"",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 2000000
             }
           }
         ]
@@ -468,7 +468,7 @@
             "name": "Opening Eshop site url",
             "result": {
               "status": "passed",
-              "duration": 663000000
+              "duration": 703000000
             }
           },
           {
@@ -478,7 +478,7 @@
             "name": "Should be on Eshop site",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 5000000
             }
           },
           {
@@ -488,7 +488,7 @@
             "name": "Clicking on button named \"Account\"",
             "result": {
               "status": "passed",
-              "duration": 562000000
+              "duration": 641000000
             }
           },
           {
@@ -498,7 +498,7 @@
             "name": "Successfull redirect on \"http://uiautomation.domain.local/my-account/\"",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 3000000
             }
           }
         ]
@@ -523,7 +523,7 @@
             "name": "Opening Eshop site url",
             "result": {
               "status": "passed",
-              "duration": 745000000
+              "duration": 729000000
             }
           },
           {
@@ -533,7 +533,7 @@
             "name": "Should be on Eshop site",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 2000000
             }
           },
           {
@@ -543,7 +543,7 @@
             "name": "Clicking on button with cart icon",
             "result": {
               "status": "passed",
-              "duration": 1284000000
+              "duration": 1113000000
             }
           },
           {
@@ -553,7 +553,7 @@
             "name": "Successfull redirect on cart page",
             "result": {
               "status": "passed",
-              "duration": 22000000
+              "duration": 5000000
             }
           }
         ]

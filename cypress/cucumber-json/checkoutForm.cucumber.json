@@ -1,0 +1,247 @@
+[
+  {
+    "description": "    Testing of the checkout form with valid and invalid data",
+    "keyword": "Feature",
+    "name": "Checkout form testing",
+    "line": 1,
+    "id": "checkout-form-testing",
+    "tags": [],
+    "uri": "checkoutForm.feature",
+    "elements": [
+      {
+        "id": "checkout-form-testing;selecting-different-address-opens-another-form",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Selecting different address opens another form",
+        "tags": [
+          {
+            "name": "@differentAddress",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Visit main page",
+            "result": {
+              "status": "passed",
+              "duration": 1107000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Adding item to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 4905000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Proceeding to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 986000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Successfull redirect to checkout page",
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Checking the different address button",
+            "result": {
+              "status": "passed",
+              "duration": 510000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Second address form should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "checkout-form-testing;clicking-on-login-shows-login-form",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Clicking on login shows login form",
+        "tags": [
+          {
+            "name": "@clickToLogin",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Visit main page",
+            "result": {
+              "status": "passed",
+              "duration": 1088000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Adding item to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 4090000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Proceeding to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 906000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Successfull redirect to checkout page",
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "Clicking on button with text click here to login",
+            "result": {
+              "status": "passed",
+              "duration": 460000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Login form should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "checkout-form-testing;valid-checkout-form-input-provided-but-with-invalid-card-info",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Valid checkout form input provided but with invalid card info",
+        "tags": [
+          {
+            "name": "@InvalidCardInfo",
+            "line": 21
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Visit main page",
+            "result": {
+              "status": "passed",
+              "duration": 1346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Adding item to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 3772000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Proceeding to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 1030000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Successfull redirect to checkout page",
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "Valid form data provided",
+            "result": {
+              "status": "passed",
+              "duration": 3272000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "Invalid card number is provided",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `iframe[name=\"__privateStripeFrame7187\"]`, but never found it.\n    at Context.frameLoaded (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:10906:15)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "Error message should be visible",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
