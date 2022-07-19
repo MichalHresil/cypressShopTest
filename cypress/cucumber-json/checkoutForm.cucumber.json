@@ -11,12 +11,12 @@
       {
         "id": "checkout-form-testing;selecting-different-address-opens-another-form",
         "keyword": "Scenario",
-        "line": 12,
+        "line": 15,
         "name": "Selecting different address opens another form",
         "tags": [
           {
             "name": "@differentAddress",
-            "line": 11
+            "line": 14
           }
         ],
         "type": "scenario",
@@ -24,61 +24,61 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 6,
+            "line": 8,
             "name": "Visit main page",
             "result": {
               "status": "passed",
-              "duration": 1107000000
+              "duration": 926000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 7,
+            "line": 9,
             "name": "Adding item to the cart",
             "result": {
               "status": "passed",
-              "duration": 4905000000
+              "duration": 4052000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 8,
+            "line": 10,
             "name": "Proceeding to checkout",
             "result": {
               "status": "passed",
-              "duration": 986000000
+              "duration": 1718000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 9,
+            "line": 11,
             "name": "Successfull redirect to checkout page",
             "result": {
               "status": "passed",
-              "duration": 34000000
+              "duration": 52000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 13,
+            "line": 16,
             "name": "Checking the different address button",
             "result": {
               "status": "passed",
-              "duration": 510000000
+              "duration": 302000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 14,
+            "line": 17,
             "name": "Second address form should be visible",
             "result": {
               "status": "passed",
-              "duration": 60000000
+              "duration": 54000000
             }
           }
         ]
@@ -86,12 +86,12 @@
       {
         "id": "checkout-form-testing;clicking-on-login-shows-login-form",
         "keyword": "Scenario",
-        "line": 17,
+        "line": 21,
         "name": "Clicking on login shows login form",
         "tags": [
           {
             "name": "@clickToLogin",
-            "line": 16
+            "line": 20
           }
         ],
         "type": "scenario",
@@ -99,61 +99,61 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 6,
+            "line": 8,
             "name": "Visit main page",
             "result": {
               "status": "passed",
-              "duration": 1088000000
+              "duration": 1276000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 7,
+            "line": 9,
             "name": "Adding item to the cart",
             "result": {
               "status": "passed",
-              "duration": 4090000000
+              "duration": 3874000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 8,
+            "line": 10,
             "name": "Proceeding to checkout",
             "result": {
               "status": "passed",
-              "duration": 906000000
+              "duration": 937000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 9,
+            "line": 11,
             "name": "Successfull redirect to checkout page",
             "result": {
               "status": "passed",
-              "duration": 34000000
+              "duration": 43000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 18,
+            "line": 22,
             "name": "Clicking on button with text click here to login",
             "result": {
               "status": "passed",
-              "duration": 460000000
+              "duration": 415000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 19,
+            "line": 23,
             "name": "Login form should be visible",
             "result": {
               "status": "passed",
-              "duration": 46000000
+              "duration": 61000000
             }
           }
         ]
@@ -161,12 +161,12 @@
       {
         "id": "checkout-form-testing;valid-checkout-form-input-provided-but-with-invalid-card-info",
         "keyword": "Scenario",
-        "line": 22,
+        "line": 27,
         "name": "Valid checkout form input provided but with invalid card info",
         "tags": [
           {
             "name": "@InvalidCardInfo",
-            "line": 21
+            "line": 26
           }
         ],
         "type": "scenario",
@@ -174,70 +174,186 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 6,
+            "line": 8,
             "name": "Visit main page",
             "result": {
               "status": "passed",
-              "duration": 1346000000
+              "duration": 1060000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 7,
+            "line": 9,
             "name": "Adding item to the cart",
             "result": {
               "status": "passed",
-              "duration": 3772000000
+              "duration": 3937000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 8,
+            "line": 10,
             "name": "Proceeding to checkout",
             "result": {
               "status": "passed",
-              "duration": 1030000000
+              "duration": 1718000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 9,
+            "line": 11,
             "name": "Successfull redirect to checkout page",
             "result": {
               "status": "passed",
-              "duration": 36000000
+              "duration": 37000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 23,
+            "line": 28,
             "name": "Valid form data provided",
             "result": {
               "status": "passed",
-              "duration": 3272000000
+              "duration": 2683000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 24,
+            "line": 29,
             "name": "Invalid card number is provided",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `iframe[name=\"__privateStripeFrame7187\"]`, but never found it.\n    at Context.frameLoaded (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:10906:15)"
+              "status": "passed",
+              "duration": 1258000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "Clicking on place order button",
+            "result": {
+              "status": "passed",
+              "duration": 253000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 25,
+            "line": 31,
             "name": "Error message should be visible",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 96000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "checkout-form-testing;valid-form-input--and-valid-payment-info-plus-order-summary-page-testing",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Valid form input  and valid payment info plus order summary page testing",
+        "tags": [
+          {
+            "name": "@ValidCardInfoAndValidation",
+            "line": 34
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "Visit main page",
+            "result": {
+              "status": "passed",
+              "duration": 1260000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Adding item to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 4174000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Proceeding to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 932000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Successfull redirect to checkout page",
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "Valid form data provided",
+            "result": {
+              "status": "passed",
+              "duration": 2960000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "Valid card number is provided",
+            "result": {
+              "status": "passed",
+              "duration": 1427000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "Clicking on place order button",
+            "result": {
+              "status": "passed",
+              "duration": 268000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "Successfull redirect to order summary",
+            "result": {
+              "status": "passed",
+              "duration": 7687000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "Validate data provided by order summary",
+            "result": {
+              "status": "passed",
+              "duration": 121000000
             }
           }
         ]

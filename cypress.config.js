@@ -2,6 +2,7 @@ const { defineConfig } = require("cypress");
 const cucumber = require('cypress-cucumber-preprocessor').default
 
 module.exports = defineConfig({
+  chromeWebSecurity: false,
   defaultCommandTimeout: 10000,
   retries: {
     runMode: 1
@@ -12,6 +13,7 @@ module.exports = defineConfig({
     },
     
     specPattern: './cypress/integration/*/*.feature',
+    
   },
   
  

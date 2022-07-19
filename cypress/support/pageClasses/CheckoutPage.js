@@ -1,26 +1,83 @@
-class CheckoutPage{
-    getDiffAddressCheckBox(){
+class CheckoutPage {
+    getDiffAddressCheckBox() {
         return cy.get('input#ship-to-different-address-checkbox')
     }
 
-    getShippingAddressInput(){
+    getShippingAddressInput() {
         return cy.get("#shipping_first_name")
     }
 
-    getLoginElement(){
+    getLoginElement() {
         return cy.get("a.showlogin")
     }
 
-    getLoginInputUsername(){
+    getLoginInputUsername() {
         return cy.get("#username")
     }
 
-    getCardErrorMessage(){
+    getCardErrorMessage() {
         return cy.get(".woocommerce_error")
     }
 
+    getPlaceOrderBtn() {
+        return cy.get("button#place_order")
+    }
 
-    fillForm(){
+    getPaymentErrorBox() {
+        return cy.get("div.stripe-source-errors")
+    }
+
+    getCardNumberInput() {
+        return cy.iframe(`iframe[title="Secure card number input frame"]`).find("input.InputElement")
+    }
+
+    getCardExpDateInput() {
+        return cy.iframe('iframe[title="Secure expiration date input frame"]').find("input.InputElement")
+    }
+
+    getCardCvcInput() {
+        return cy.iframe('iframe[title="Secure CVC input frame"]').find("input.InputElement")
+    }
+
+    getCheckoutDiv(){
+        return cy.get(".woocommerce-order")
+    }
+
+    getItemPrices(){
+        return cy.get(".product-total")
+    }
+
+    getTotalPriceOverviewElement(){
+        return cy.get(".woocommerce-order-overview .woocommerce-Price-amount")
+    }
+
+    getAllItemPriceElements(){
+        cy.get("tbody tr td:nth-child(2)")
+    }
+
+    fillCard(valid=false) {
+
+        cy.fixture("checkoutData").then(function(data){
+
+            if (valid) {
+                cy.iframe(`iframe[title="Secure card number input frame"]`).find("input.InputElement").type(data.validCard.number)
+                cy.iframe('iframe[title="Secure expiration date input frame"]').find("input.InputElement").type(data.validCard.expDate)
+                cy.iframe('iframe[title="Secure CVC input frame"]').find("input.InputElement").type(data.validCard.cvc)
+            }
+
+            else {
+                cy.iframe(`iframe[title="Secure card number input frame"]`).find("input.InputElement").type(data.invalidCard.number)
+                cy.iframe('iframe[title="Secure expiration date input frame"]').find("input.InputElement").type(data.invalidCard.expDate)
+                cy.iframe('iframe[title="Secure CVC input frame"]').find("input.InputElement").type(data.invalidCard.cvc)
+            }
+
+        })
+
+    }
+
+
+
+    fillForm() {
 
         const form = [
             "#billing_first_name",
@@ -42,7 +99,7 @@ class CheckoutPage{
             "opl@mail.cz"
         ]
 
-        for(var i = 0; i < form.length; i++){
+        for (var i = 0; i < form.length; i++) {
             cy.get(form[i]).type(data[i])
         }
 
