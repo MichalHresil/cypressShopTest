@@ -52,7 +52,7 @@ class CheckoutPage {
     }
 
     getAllItemPriceElements(){
-        cy.get("tbody tr td:nth-child(2)")
+        return cy.get("tbody tr td:nth-child(2)")
     }
 
     fillCard(valid=false) {

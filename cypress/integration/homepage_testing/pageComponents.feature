@@ -1,4 +1,4 @@
-Feature: Test suite - home page testing
+Feature: Test suite - Page components testing
 
     Test of main home page elements
     Pre-Condition: open home page

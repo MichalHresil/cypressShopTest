@@ -1,0 +1,60 @@
+[
+  {
+    "description": "    Testing, if filtering items in shop returns expected output",
+    "keyword": "Feature",
+    "name": "Testing Store page navigation and filtering",
+    "line": 1,
+    "id": "testing-store-page-navigation-and-filtering",
+    "tags": [],
+    "uri": "filterTest.feature",
+    "elements": [
+      {
+        "id": "testing-store-page-navigation-and-filtering;setting-max-value-to-\"120\"",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Setting max value to \"120\"",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Open store page on store url",
+            "result": {
+              "status": "undefined",
+              "duration": 82000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Should be on store url",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "Setting filter to max value of \"120\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Only items with price up to \"120\" should be present",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

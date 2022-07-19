@@ -1,9 +1,11 @@
 /// <reference types="cypress"/>
 
 import { Given, Then } from "cypress-cucumber-preprocessor/steps"
+import CartPage from "../../../support/pageClasses/CartPage"
 import HomePage from "../../../support/pageClasses/HomePage"
 
 const homepage = new HomePage()
+const cartpage = new CartPage()
 
 //background
 Given('Visit main page', function(){
@@ -50,17 +52,17 @@ Given("Put all the items from json into the cart", function(){
 
 And('Validate that all items are present in cart', function(){
     homepage.getCartButtonNavBar().click({force:true})
-    homepage.getAllSubPricesFromCart().should("have.length", 4)
+    cartpage.getAllSubPricesFromCart().should("have.length", 4)
 })
 
 Then('Validate if total price is equal to sum of prices', function(){
     var total = 0
-    homepage.getAllSubPricesFromCart().each(($el, index, $list)=>{
+    cartpage.getAllSubPricesFromCart().each(($el, index, $list)=>{
         const number = parseInt($el.text().replace(/^\D+/g, ""))
         total += number
     })
 
-   homepage.getCartSubtotal().then((el)=>{
+   cartpage.getCartSubtotal().then((el)=>{
         var totalCart = parseInt(el.text().replace(/^\D+/g, ""))
         expect(total).to.eql(totalCart)
    })
