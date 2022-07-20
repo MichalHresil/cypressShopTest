@@ -55,7 +55,7 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 13,
-            "name": "Successfull redirect to store page",
+            "name": "Successful redirect to store page",
             "result": {
               "status": "passed",
               "duration": 12000000
@@ -110,7 +110,7 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 18,
-            "name": "Successfull redirect to \"http://uiautomation.domain.local/product-category/accessories/\"",
+            "name": "Successful redirect to \"http://uiautomation.domain.local/product-category/accessories/\"",
             "result": {
               "status": "passed",
               "duration": 10000000
@@ -165,7 +165,7 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 18,
-            "name": "Successfull redirect to \"http://uiautomation.domain.local/product-category/men/\"",
+            "name": "Successful redirect to \"http://uiautomation.domain.local/product-category/men/\"",
             "result": {
               "status": "passed",
               "duration": 9000000
@@ -220,7 +220,7 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 18,
-            "name": "Successfull redirect to \"http://uiautomation.domain.local/product-category/women/\"",
+            "name": "Successful redirect to \"http://uiautomation.domain.local/product-category/women/\"",
             "result": {
               "status": "passed",
               "duration": 11000000

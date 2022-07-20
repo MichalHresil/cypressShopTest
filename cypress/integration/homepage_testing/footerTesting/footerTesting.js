@@ -21,6 +21,6 @@ Given('Clicking on button named {string}', function(btnName){
     homepage.getButtonFooterByName(btnName).click()
 })
 
-Then('Successfull redirect on {string}', function(url){
+Then('Successful redirect on {string}', function(url){
     cy.url().should("deep.equal", url)
 })

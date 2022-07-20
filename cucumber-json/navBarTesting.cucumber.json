@@ -55,7 +55,7 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 13,
-            "name": "Successfull redirect on home page",
+            "name": "Successful redirect on home page",
             "result": {
               "status": "passed",
               "duration": 7000000
@@ -110,7 +110,7 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 18,
-            "name": "Successfull redirect on \"http://uiautomation.domain.local/\"",
+            "name": "Successful redirect on \"http://uiautomation.domain.local/\"",
             "result": {
               "status": "passed",
               "duration": 5000000
@@ -165,7 +165,7 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 18,
-            "name": "Successfull redirect on \"http://uiautomation.domain.local/store/\"",
+            "name": "Successful redirect on \"http://uiautomation.domain.local/store/\"",
             "result": {
               "status": "passed",
               "duration": 9000000
@@ -220,7 +220,7 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 18,
-            "name": "Successfull redirect on \"http://uiautomation.domain.local/product-category/men/\"",
+            "name": "Successful redirect on \"http://uiautomation.domain.local/product-category/men/\"",
             "result": {
               "status": "passed",
               "duration": 4000000
@@ -275,7 +275,7 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 18,
-            "name": "Successfull redirect on \"http://uiautomation.domain.local/product-category/women/\"",
+            "name": "Successful redirect on \"http://uiautomation.domain.local/product-category/women/\"",
             "result": {
               "status": "passed",
               "duration": 3000000
@@ -330,7 +330,7 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 18,
-            "name": "Successfull redirect on \"http://uiautomation.domain.local/product-category/accessories/\"",
+            "name": "Successful redirect on \"http://uiautomation.domain.local/product-category/accessories/\"",
             "result": {
               "status": "passed",
               "duration": 4000000
@@ -385,7 +385,7 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 18,
-            "name": "Successfull redirect on \"http://uiautomation.domain.local/about/\"",
+            "name": "Successful redirect on \"http://uiautomation.domain.local/about/\"",
             "result": {
               "status": "passed",
               "duration": 5000000
@@ -440,7 +440,7 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 18,
-            "name": "Successfull redirect on \"http://uiautomation.domain.local/contact-us/\"",
+            "name": "Successful redirect on \"http://uiautomation.domain.local/contact-us/\"",
             "result": {
               "status": "passed",
               "duration": 6000000
@@ -495,7 +495,7 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 18,
-            "name": "Successfull redirect on \"http://uiautomation.domain.local/my-account/\"",
+            "name": "Successful redirect on \"http://uiautomation.domain.local/my-account/\"",
             "result": {
               "status": "passed",
               "duration": 4000000
@@ -550,7 +550,7 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 34,
-            "name": "Successfull redirect on cart page",
+            "name": "Successful redirect on cart page",
             "result": {
               "status": "passed",
               "duration": 8000000

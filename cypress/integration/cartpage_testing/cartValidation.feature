@@ -14,4 +14,4 @@ Feature: Validating various functions of the cart page
         And Enter nonexistent coupon code
         And Validate nonexistent coupon is handeled
         And Clicking on button to proceed to checkout
-        Then Successfull redirect to checkout form
+        Then Successful redirect to checkout form

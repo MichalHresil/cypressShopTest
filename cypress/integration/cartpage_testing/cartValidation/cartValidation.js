@@ -45,6 +45,6 @@ And('Clicking on button to proceed to checkout', function(){
     cartpage.getCheckoutButton().click({force: true})
 })
 
-Then('Successfull redirect to checkout form', function(){
+Then('Successful redirect to checkout form', function(){
     cy.url().should("deep.equal", this.url.checkoutUrl)
 })

@@ -28,7 +28,7 @@
             "name": "Visit main page",
             "result": {
               "status": "passed",
-              "duration": 1696000000
+              "duration": 1969000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "Load data",
             "result": {
               "status": "passed",
-              "duration": 40000000
+              "duration": 26000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "Put one item into cart",
             "result": {
               "status": "passed",
-              "duration": 4678000000
+              "duration": 5238000000
             }
           },
           {
@@ -58,7 +58,7 @@
             "name": "Validate the item is present in cart",
             "result": {
               "status": "passed",
-              "duration": 1281000000
+              "duration": 713000000
             }
           },
           {
@@ -68,7 +68,7 @@
             "name": "Enter nonexistent coupon code",
             "result": {
               "status": "passed",
-              "duration": 905000000
+              "duration": 473000000
             }
           },
           {
@@ -78,7 +78,7 @@
             "name": "Validate nonexistent coupon is handeled",
             "result": {
               "status": "passed",
-              "duration": 267000000
+              "duration": 206000000
             }
           },
           {
@@ -88,14 +88,14 @@
             "name": "Clicking on button to proceed to checkout",
             "result": {
               "status": "passed",
-              "duration": 1598000000
+              "duration": 860000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 17,
-            "name": "Successfull redirect to checkout form",
+            "name": "Successful redirect to checkout form",
             "result": {
               "status": "passed",
               "duration": 7000000

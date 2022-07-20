@@ -23,7 +23,7 @@ Given('Clicking on page logo',function(){
     homepage.getNavLogo().eq(0).click()
 })
 
-Then('Successfull redirect on home page',function(){
+Then('Successful redirect on home page',function(){
     cy.url().should("deep.equal", this.url.homeUrl)
 })
 
@@ -32,7 +32,7 @@ Given('Clicking on button named {string}', function(btnName){
     homepage.getButtonNavBarByName(btnName).click()
 })
 
-Then('Successfull redirect on {string}', function(url){
+Then('Successful redirect on {string}', function(url){
     cy.url().should("deep.equal", url)
 })
 
@@ -41,6 +41,6 @@ Given('Clicking on button with cart icon', function(){
     homepage.getCartButtonNavBar().click({force:true})
 })
 
-Then('Successfull redirect on cart page', function(){
+Then('Successful redirect on cart page', function(){
     cy.url().should("deep.equal", "http://uiautomation.domain.local/cart/")
 })

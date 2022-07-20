@@ -10,12 +10,12 @@ Feature: 'Test suite - Testing navigation bar'
     @logobutton
     Scenario: Clicking on logo opens homepage
         Given Clicking on page logo
-        Then Successfull redirect on home page
+        Then Successful redirect on home page
 
     @navbuttons
     Scenario Outline: Clicking on <btnName> button opens <btnPage> page
         Given Clicking on button named "<btnName>"
-        Then Successfull redirect on "<url>"
+        Then Successful redirect on "<url>"
 
         Examples:
             | btnName     | url                                                            | btnPage       |
@@ -31,6 +31,6 @@ Feature: 'Test suite - Testing navigation bar'
     @cartbutton
     Scenario: Clicking on Cart button opens shopping cart page
         Given Clicking on button with cart icon
-        Then Successfull redirect on cart page
+        Then Successful redirect on cart page
 
 

@@ -8,7 +8,7 @@ Feature: Test suite - footer testing
 
     Scenario Outline: Clicking on <btnName> button opens <btnPage> page
         Given Clicking on button named "<btnName>"
-        Then Successfull redirect on "<url>"
+        Then Successful redirect on "<url>"
 
         Examples:
             | btnName    | url                                          | btnPage    |

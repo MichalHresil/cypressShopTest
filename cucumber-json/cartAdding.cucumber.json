@@ -155,7 +155,7 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 23,
-            "name": "Successfull redirect to checkout form",
+            "name": "Successful redirect to checkout form",
             "result": {
               "status": "skipped"
             }

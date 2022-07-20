@@ -7,7 +7,7 @@ Feature: Checkout form testing
         Given Visit main page
         And Adding item to the cart
         And Proceeding to checkout
-        Then Successfull redirect to checkout page
+        Then Successful redirect to checkout page
 
 
     @differentAddress
@@ -35,5 +35,5 @@ Feature: Checkout form testing
         When Valid form data provided
         And Valid card number is provided
         And Clicking on place order button
-        And Successfull redirect to order summary
+        And Successful redirect to order summary
         Then Validate data provided by order summary

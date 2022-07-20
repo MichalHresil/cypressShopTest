@@ -50,7 +50,7 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 11,
-            "name": "Successfull redirect on \"http://uiautomation.domain.local/\"",
+            "name": "Successful redirect on \"http://uiautomation.domain.local/\"",
             "result": {
               "status": "failed",
               "error_message": "AssertionError: Timed out retrying after 10000ms: expected 'http://uiautomation.domain.local/home/' to deeply equal 'http://uiautomation.domain.local/'\n    + expected - actual\n\n    -'http://uiautomation.domain.local/home/'\n    +'http://uiautomation.domain.local/'\n\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\homepage_testing\\footerTesting.feature:60:12)\n    at Context.resolveAndRunStepDefinition (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\homepage_testing\\footerTesting.feature:10579:29)\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\homepage_testing\\footerTesting.feature:9900:35)"
@@ -106,7 +106,7 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 11,
-            "name": "Successfull redirect on \"http://uiautomation.domain.local/about/\"",
+            "name": "Successful redirect on \"http://uiautomation.domain.local/about/\"",
             "result": {
               "status": "passed",
               "duration": 15000000
@@ -156,7 +156,7 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 11,
-            "name": "Successfull redirect on \"http://uiautomation.domain.local/my-account/\"",
+            "name": "Successful redirect on \"http://uiautomation.domain.local/my-account/\"",
             "result": {
               "status": "passed",
               "duration": 5000000
@@ -206,7 +206,7 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 11,
-            "name": "Successfull redirect on \"http://uiautomation.domain.local/cart/\"",
+            "name": "Successful redirect on \"http://uiautomation.domain.local/cart/\"",
             "result": {
               "status": "passed",
               "duration": 12000000
@@ -256,7 +256,7 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 11,
-            "name": "Successfull redirect on \"http://uiautomation.domain.local/contact-us/\"",
+            "name": "Successful redirect on \"http://uiautomation.domain.local/contact-us/\"",
             "result": {
               "status": "passed",
               "duration": 10000000

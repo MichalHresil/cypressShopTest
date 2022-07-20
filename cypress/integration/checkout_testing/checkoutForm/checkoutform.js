@@ -32,7 +32,7 @@ And('Proceeding to checkout', function () {
     cartpage.getCheckoutButton().click({ force: true })
 })
 
-Then('Successfull redirect to checkout page', function () {
+Then('Successful redirect to checkout page', function () {
     cy.url().should("deep.equal", this.url.checkoutUrl)
 })
 
@@ -82,7 +82,7 @@ And('Valid card number is provided', function () {
     checkoutpage.fillCard(true)
 })
 
-And('Successfull redirect to order summary', function () {
+And('Successful redirect to order summary', function () {
     checkoutpage.getCheckoutDiv().should("be.visible")
 })
 

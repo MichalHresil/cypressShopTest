@@ -29,7 +29,7 @@ Given('Clicking on go shopping button', function(){
     homepage.getGoShoppingBtn().click()
 })
 
-Then('Successfull redirect to store page', function(){
+Then('Successful redirect to store page', function(){
     cy.url().should("deep.equal", "http://uiautomation.domain.local/store/")
 })
 
@@ -38,7 +38,7 @@ Given('Clicking on {string}. element named {string}', function(child, elName){
     homepage.getProductElementByChild(child).click()
 })
 
-Then('Successfull redirect to {string}', function(url){
+Then('Successful redirect to {string}', function(url){
     cy.url().should("deep.equal", url)
 })
 

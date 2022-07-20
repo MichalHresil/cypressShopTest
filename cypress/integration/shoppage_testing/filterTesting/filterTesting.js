@@ -21,10 +21,15 @@ Then('Should be on store url', function(){
 
 //scenario 1
 
-Given('Setting filter to max value of {string}', function (numStr) {
-    cy.get("#max_price").type(`{selectAll}{del}${numStr}{enter}`,{force:true})
+Given('Setting filter to min value of {string} and max value of {string}', function (min,max) {
+    storepage.inputMinFilter(min)
+    storepage.inputMaxFilter(max)
 })
 
-Then('Only items with price up to {string} should be present', function (numStr) {
-    storepage.checkProductsFilter(numStr)
+And('Sorting items from high to low price', function(){
+    storepage.getPriceSelect().should("exist").select("price-desc",{force:true})
+})
+
+Then('Only items with price between {string} and {string} should be present', function (minStr, maxStr) {
+    storepage.checkProductsFilter(minStr, maxStr)
 })

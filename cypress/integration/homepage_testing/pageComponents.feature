@@ -10,12 +10,12 @@ Feature: Test suite - Page components testing
     @clickGoShoppingButton
     Scenario: Click on Go shopping button open store page
         Given Clicking on go shopping button
-        Then Successfull redirect to store page
+        Then Successful redirect to store page
 
     @clickElement
     Scenario Outline: Clicking on <elName> element opens store <elName> page
         Given Clicking on "<child>". element named "<elName>"
-        Then Successfull redirect to "<url>"
+        Then Successful redirect to "<url>"
 
         Examples:
             | child | elName         | url                                                            |

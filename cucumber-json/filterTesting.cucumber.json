@@ -9,10 +9,10 @@
     "uri": "filterTesting.feature",
     "elements": [
       {
-        "id": "testing-store-page-navigation-and-filtering;setting-max-value-to-\"140\"",
+        "id": "testing-store-page-navigation-and-filtering;setting-min-value-to-\"110\"-and-max-value-to-\"140\"",
         "keyword": "Scenario",
-        "line": 16,
-        "name": "Setting max value to \"140\"",
+        "line": 17,
+        "name": "Setting min value to \"110\" and max value to \"140\"",
         "tags": [
           {
             "name": "@filtermaxSet",
@@ -28,7 +28,7 @@
             "name": "Open store page on store url",
             "result": {
               "status": "passed",
-              "duration": 767000000
+              "duration": 1053000000
             }
           },
           {
@@ -38,27 +38,167 @@
             "name": "Should be on store url",
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 10000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 11,
-            "name": "Setting filter to max value of \"140\"",
+            "name": "Setting filter to min value of \"110\" and max value of \"140\"",
             "result": {
               "status": "passed",
-              "duration": 708000000
+              "duration": 1398000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Sorting items from high to low price",
+            "result": {
+              "status": "passed",
+              "duration": 134000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 12,
-            "name": "Only items with price up to \"140\" should be present",
+            "line": 13,
+            "name": "Only items with price between \"110\" and \"140\" should be present",
             "result": {
               "status": "passed",
-              "duration": 17000000
+              "duration": 30000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "testing-store-page-navigation-and-filtering;setting-min-value-to-\"120\"-and-max-value-to-\"120\"",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Setting min value to \"120\" and max value to \"120\"",
+        "tags": [
+          {
+            "name": "@filtermaxSet",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Open store page on store url",
+            "result": {
+              "status": "passed",
+              "duration": 1397000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Should be on store url",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "Setting filter to min value of \"120\" and max value of \"120\"",
+            "result": {
+              "status": "passed",
+              "duration": 1437000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Sorting items from high to low price",
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Only items with price between \"120\" and \"120\" should be present",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "testing-store-page-navigation-and-filtering;setting-min-value-to-\"130\"-and-max-value-to-\"160\"",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Setting min value to \"130\" and max value to \"160\"",
+        "tags": [
+          {
+            "name": "@filtermaxSet",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Open store page on store url",
+            "result": {
+              "status": "passed",
+              "duration": 1371000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Should be on store url",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "Setting filter to min value of \"130\" and max value of \"160\"",
+            "result": {
+              "status": "passed",
+              "duration": 1395000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Sorting items from high to low price",
+            "result": {
+              "status": "passed",
+              "duration": 147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Only items with price between \"130\" and \"160\" should be present",
+            "result": {
+              "status": "passed",
+              "duration": 59000000
             }
           }
         ]
