@@ -33,3 +33,30 @@ And('Sorting items from high to low price', function(){
 Then('Only items with price between {string} and {string} should be present', function (minStr, maxStr) {
     storepage.checkProductsFilter(minStr, maxStr)
 })
+
+//acessory filter
+
+Given('Clicking on accessories filter button', function(){
+    cy.get(".product-categories li a").contains("Accessories").click()
+})
+
+And('Successful redirect on accessories page', function(){
+    cy.url().should("deep.equal", this.url.accessoryUrl)
+})
+
+Then('Only accesory type items should be present', function(){
+
+    var validCategories = []
+
+    storepage.getAllProductCategories().then((categories)=>{
+        for(var i = 0; i < categories.length; i++){
+            if(categories[i].innerText==="Accessories"){
+                validCategories.push(categories[i])
+            }
+        }
+    })
+
+    storepage.getAllProducts().then((products)=>{
+        expect(products.length).to.eql(validCategories.length)
+    })
+})

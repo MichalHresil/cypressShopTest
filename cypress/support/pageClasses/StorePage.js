@@ -1,6 +1,10 @@
 class StorePage {
     getAllProducts() {
+        return cy.get(".products li")
+    }
 
+    getAllProductCategories(){
+        return cy.get(".ast-woo-product-category")
     }
 
     getPriceSelect() {
@@ -17,6 +21,10 @@ class StorePage {
 
     getNoItemsFoundNotice() {
         return cy.get(".woocommerce-info")
+    }
+
+    getAccessoriesBtn(){
+        cy.get(".product-categories li a").eq(0)
     }
 
     checkProductsFilter(minVal, maxVal) {

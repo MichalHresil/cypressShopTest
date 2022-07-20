@@ -2,14 +2,14 @@
   {
     "description": "    Testing of the checkout form with valid and invalid data",
     "keyword": "Feature",
-    "name": "Checkout form testing",
+    "name": "Test suite - Checkout form testing",
     "line": 1,
-    "id": "checkout-form-testing",
+    "id": "test-suite---checkout-form-testing",
     "tags": [],
     "uri": "checkoutForm.feature",
     "elements": [
       {
-        "id": "checkout-form-testing;selecting-different-address-opens-another-form",
+        "id": "test-suite---checkout-form-testing;selecting-different-address-opens-another-form",
         "keyword": "Scenario",
         "line": 14,
         "name": "Selecting different address opens another form",
@@ -28,7 +28,7 @@
             "name": "Visit main page",
             "result": {
               "status": "passed",
-              "duration": 1438000000
+              "duration": 1576000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "Adding item to the cart",
             "result": {
               "status": "passed",
-              "duration": 3730000000
+              "duration": 5051000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "Proceeding to checkout",
             "result": {
               "status": "passed",
-              "duration": 777000000
+              "duration": 1362000000
             }
           },
           {
@@ -58,7 +58,7 @@
             "name": "Successful redirect to checkout page",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 33000000
             }
           },
           {
@@ -68,7 +68,7 @@
             "name": "Checking the different address button",
             "result": {
               "status": "passed",
-              "duration": 251000000
+              "duration": 347000000
             }
           },
           {
@@ -78,13 +78,13 @@
             "name": "Second address form should be visible",
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 48000000
             }
           }
         ]
       },
       {
-        "id": "checkout-form-testing;clicking-on-login-shows-login-form",
+        "id": "test-suite---checkout-form-testing;clicking-on-login-shows-login-form",
         "keyword": "Scenario",
         "line": 20,
         "name": "Clicking on login shows login form",
@@ -103,7 +103,7 @@
             "name": "Visit main page",
             "result": {
               "status": "passed",
-              "duration": 951000000
+              "duration": 935000000
             }
           },
           {
@@ -113,7 +113,7 @@
             "name": "Adding item to the cart",
             "result": {
               "status": "passed",
-              "duration": 3081000000
+              "duration": 3725000000
             }
           },
           {
@@ -123,7 +123,7 @@
             "name": "Proceeding to checkout",
             "result": {
               "status": "passed",
-              "duration": 703000000
+              "duration": 1162000000
             }
           },
           {
@@ -133,7 +133,7 @@
             "name": "Successful redirect to checkout page",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 31000000
             }
           },
           {
@@ -143,7 +143,7 @@
             "name": "Clicking on button with text click here to login",
             "result": {
               "status": "passed",
-              "duration": 227000000
+              "duration": 267000000
             }
           },
           {
@@ -153,13 +153,13 @@
             "name": "Login form should be visible",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 46000000
             }
           }
         ]
       },
       {
-        "id": "checkout-form-testing;valid-checkout-form-input-provided-but-with-invalid-card-info",
+        "id": "test-suite---checkout-form-testing;valid-checkout-form-input-provided-but-with-invalid-card-info",
         "keyword": "Scenario",
         "line": 26,
         "name": "Valid checkout form input provided but with invalid card info",
@@ -178,7 +178,7 @@
             "name": "Visit main page",
             "result": {
               "status": "passed",
-              "duration": 858000000
+              "duration": 907000000
             }
           },
           {
@@ -188,7 +188,7 @@
             "name": "Adding item to the cart",
             "result": {
               "status": "passed",
-              "duration": 3500000000
+              "duration": 3641000000
             }
           },
           {
@@ -198,7 +198,7 @@
             "name": "Proceeding to checkout",
             "result": {
               "status": "passed",
-              "duration": 736000000
+              "duration": 1030000000
             }
           },
           {
@@ -208,60 +208,106 @@
             "name": "Successful redirect to checkout page",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 36000000
             }
           },
           {
-            "arguments": [],
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "surname",
+                      "address",
+                      "city",
+                      "postcode",
+                      "phone",
+                      "email"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Karel",
+                      "Oplatek",
+                      "Mostní 111",
+                      "Praha",
+                      "11155",
+                      "123654789",
+                      "oplatek@mail.com"
+                    ]
+                  }
+                ]
+              }
+            ],
             "keyword": "When ",
             "line": 27,
             "name": "Valid form data provided",
             "result": {
               "status": "passed",
-              "duration": 2215000000
+              "duration": 2966000000
             }
           },
           {
-            "arguments": [],
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "card number",
+                      "expiration date",
+                      "cvc"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "4242424242424542",
+                      "08/28",
+                      "000"
+                    ]
+                  }
+                ]
+              }
+            ],
             "keyword": "And ",
-            "line": 28,
-            "name": "Invalid card number is provided",
+            "line": 31,
+            "name": "Invalid card information is provided",
             "result": {
               "status": "passed",
-              "duration": 943000000
+              "duration": 1156000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 29,
+            "line": 35,
             "name": "Clicking on place order button",
             "result": {
               "status": "passed",
-              "duration": 189000000
+              "duration": 232000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 30,
+            "line": 36,
             "name": "Error message should be visible",
             "result": {
               "status": "passed",
-              "duration": 35000000
+              "duration": 92000000
             }
           }
         ]
       },
       {
-        "id": "checkout-form-testing;valid-form-input--and-valid-payment-info-plus-order-summary-page-testing",
+        "id": "test-suite---checkout-form-testing;valid-form-input--and-valid-payment-info-plus-order-summary-page-testing",
         "keyword": "Scenario",
-        "line": 34,
+        "line": 40,
         "name": "Valid form input  and valid payment info plus order summary page testing",
         "tags": [
           {
             "name": "@ValidCardInfoAndValidation",
-            "line": 33
+            "line": 39
           }
         ],
         "type": "scenario",
@@ -273,7 +319,7 @@
             "name": "Visit main page",
             "result": {
               "status": "passed",
-              "duration": 826000000
+              "duration": 843000000
             }
           },
           {
@@ -283,7 +329,7 @@
             "name": "Adding item to the cart",
             "result": {
               "status": "passed",
-              "duration": 3762000000
+              "duration": 3519000000
             }
           },
           {
@@ -293,7 +339,7 @@
             "name": "Proceeding to checkout",
             "result": {
               "status": "passed",
-              "duration": 722000000
+              "duration": 868000000
             }
           },
           {
@@ -303,57 +349,808 @@
             "name": "Successful redirect to checkout page",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 32000000
             }
           },
           {
-            "arguments": [],
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "surname",
+                      "address",
+                      "city",
+                      "postcode",
+                      "phone",
+                      "email"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Jolanda",
+                      "Oplatková",
+                      "Mostní 111",
+                      "Praha",
+                      "11155",
+                      "456789321",
+                      "opl@mail.com"
+                    ]
+                  }
+                ]
+              }
+            ],
             "keyword": "When ",
-            "line": 35,
+            "line": 41,
             "name": "Valid form data provided",
             "result": {
               "status": "passed",
-              "duration": 2227000000
+              "duration": 3086000000
             }
           },
           {
-            "arguments": [],
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "card number",
+                      "expiration date",
+                      "cvc"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "4242424242424242",
+                      "08/28",
+                      "000"
+                    ]
+                  }
+                ]
+              }
+            ],
             "keyword": "And ",
-            "line": 36,
-            "name": "Valid card number is provided",
+            "line": 45,
+            "name": "Valid card information is provided",
             "result": {
               "status": "passed",
-              "duration": 908000000
+              "duration": 1381000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 37,
+            "line": 49,
             "name": "Clicking on place order button",
             "result": {
               "status": "passed",
-              "duration": 158000000
+              "duration": 238000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 38,
+            "line": 50,
             "name": "Successful redirect to order summary",
             "result": {
               "status": "passed",
-              "duration": 6578000000
+              "duration": 7939000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 39,
+            "line": 51,
             "name": "Validate data provided by order summary",
             "result": {
               "status": "passed",
-              "duration": 57000000
+              "duration": 128000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---checkout-form-testing;invalid-data---\"postcode\"-provided-to-form-and-is-handeled",
+        "keyword": "Scenario",
+        "line": 70,
+        "name": "Invalid data - \"postcode\" provided to form and is handeled",
+        "tags": [
+          {
+            "name": "@variousInvalidFormData",
+            "line": 54
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Visit main page",
+            "result": {
+              "status": "passed",
+              "duration": 938000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Adding item to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 3515000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Proceeding to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 1082000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Successful redirect to checkout page",
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "surname",
+                      "address",
+                      "city",
+                      "postcode",
+                      "phone",
+                      "email"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Jolanda",
+                      "Oplatková",
+                      "Mostní 111",
+                      "Praha",
+                      "11147021878",
+                      "456789321",
+                      "opl@mail.com"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 56,
+            "name": "Invalid data provided to form",
+            "result": {
+              "status": "passed",
+              "duration": 2907000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "card number",
+                      "expiration date",
+                      "cvc"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "4242424242424242",
+                      "08/28",
+                      "000"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 60,
+            "name": "Valid card information is provided",
+            "result": {
+              "status": "passed",
+              "duration": 1098000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 64,
+            "name": "Clicking on place order button",
+            "result": {
+              "status": "passed",
+              "duration": 256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "Error with data-id \"billing_postcode\" should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 1114000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---checkout-form-testing;invalid-data---\"email\"-provided-to-form-and-is-handeled",
+        "keyword": "Scenario",
+        "line": 71,
+        "name": "Invalid data - \"email\" provided to form and is handeled",
+        "tags": [
+          {
+            "name": "@variousInvalidFormData",
+            "line": 54
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Visit main page",
+            "result": {
+              "status": "passed",
+              "duration": 1204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Adding item to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 3953000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Proceeding to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 864000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Successful redirect to checkout page",
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "surname",
+                      "address",
+                      "city",
+                      "postcode",
+                      "phone",
+                      "email"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Jolanda",
+                      "Oplatková",
+                      "Mostní 111",
+                      "Praha",
+                      "11147",
+                      "456789321",
+                      "opl"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 56,
+            "name": "Invalid data provided to form",
+            "result": {
+              "status": "passed",
+              "duration": 2753000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "card number",
+                      "expiration date",
+                      "cvc"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "4242424242424242",
+                      "08/28",
+                      "000"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 60,
+            "name": "Valid card information is provided",
+            "result": {
+              "status": "passed",
+              "duration": 1170000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 64,
+            "name": "Clicking on place order button",
+            "result": {
+              "status": "passed",
+              "duration": 236000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "Error with data-id \"billing_email\" should be visible",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `.woocommerce-error li[data-id='billing_email']`, but never found it.\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:146:63)\n    at Context.resolveAndRunStepDefinition (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:10837:29)\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:10158:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---checkout-form-testing;invalid-data---\"phone-number\"-provided-to-form-and-is-handeled",
+        "keyword": "Scenario",
+        "line": 72,
+        "name": "Invalid data - \"phone number\" provided to form and is handeled",
+        "tags": [
+          {
+            "name": "@variousInvalidFormData",
+            "line": 54
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Visit main page",
+            "result": {
+              "status": "passed",
+              "duration": 938000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Adding item to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 4006000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Proceeding to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 1251000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Successful redirect to checkout page",
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "surname",
+                      "address",
+                      "city",
+                      "postcode",
+                      "phone",
+                      "email"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Jolanda",
+                      "Oplatková",
+                      "Mostní 111",
+                      "Praha",
+                      "11147",
+                      "test",
+                      "opl@mail.com"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 56,
+            "name": "Invalid data provided to form",
+            "result": {
+              "status": "passed",
+              "duration": 3360000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "card number",
+                      "expiration date",
+                      "cvc"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "4242424242424242",
+                      "08/28",
+                      "000"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 60,
+            "name": "Valid card information is provided",
+            "result": {
+              "status": "passed",
+              "duration": 1426000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 64,
+            "name": "Clicking on place order button",
+            "result": {
+              "status": "passed",
+              "duration": 293000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "Error with data-id \"billing_phone\" should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 1239000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---checkout-form-testing;invalid-data---\"address(non-breaking-space)\"-provided-to-form-and-is-handeled",
+        "keyword": "Scenario",
+        "line": 73,
+        "name": "Invalid data - \"address(non breaking space)\" provided to form and is handeled",
+        "tags": [
+          {
+            "name": "@variousInvalidFormData",
+            "line": 54
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Visit main page",
+            "result": {
+              "status": "passed",
+              "duration": 1006000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Adding item to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 3917000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Proceeding to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 965000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Successful redirect to checkout page",
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "surname",
+                      "address",
+                      "city",
+                      "postcode",
+                      "phone",
+                      "email"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Jolanda",
+                      "Oplatková",
+                      "­",
+                      "Praha",
+                      "11147",
+                      "123456789",
+                      "opl@mail.com"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 56,
+            "name": "Invalid data provided to form",
+            "result": {
+              "status": "passed",
+              "duration": 3546000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "card number",
+                      "expiration date",
+                      "cvc"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "4242424242424242",
+                      "08/28",
+                      "000"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 60,
+            "name": "Valid card information is provided",
+            "result": {
+              "status": "passed",
+              "duration": 1437000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 64,
+            "name": "Clicking on place order button",
+            "result": {
+              "status": "passed",
+              "duration": 309000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "Error with data-id \"billing_address_1\" should be visible",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `.woocommerce-error li[data-id='billing_address_1']`, but never found it.\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:146:63)\n    at Context.resolveAndRunStepDefinition (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:10837:29)\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:10158:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---checkout-form-testing;invalid-data---\"empty-address\"-provided-to-form-and-is-handeled",
+        "keyword": "Scenario",
+        "line": 74,
+        "name": "Invalid data - \"empty address\" provided to form and is handeled",
+        "tags": [
+          {
+            "name": "@variousInvalidFormData",
+            "line": 54
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Visit main page",
+            "result": {
+              "status": "passed",
+              "duration": 1305000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Adding item to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 4462000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Proceeding to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 1174000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Successful redirect to checkout page",
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "surname",
+                      "address",
+                      "city",
+                      "postcode",
+                      "phone",
+                      "email"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Jolanda",
+                      "Oplatková",
+                      "e{backspace}",
+                      "Praha",
+                      "11147",
+                      "123456789",
+                      "opl@mail.com"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 56,
+            "name": "Invalid data provided to form",
+            "result": {
+              "status": "passed",
+              "duration": 3246000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "card number",
+                      "expiration date",
+                      "cvc"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "4242424242424242",
+                      "08/28",
+                      "000"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 60,
+            "name": "Valid card information is provided",
+            "result": {
+              "status": "passed",
+              "duration": 1612000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 64,
+            "name": "Clicking on place order button",
+            "result": {
+              "status": "passed",
+              "duration": 319000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "Error with data-id \"billing_address_1\" should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 1081000000
             }
           }
         ]

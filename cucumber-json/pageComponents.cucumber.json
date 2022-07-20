@@ -28,7 +28,7 @@
             "name": "Visit main page",
             "result": {
               "status": "passed",
-              "duration": 851000000
+              "duration": 1048000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "Should be on Eshop url and load data",
             "result": {
               "status": "passed",
-              "duration": 25000000
+              "duration": 21000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "Clicking on go shopping button",
             "result": {
               "status": "passed",
-              "duration": 695000000
+              "duration": 774000000
             }
           },
           {
@@ -58,7 +58,7 @@
             "name": "Successful redirect to store page",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 4000000
             }
           }
         ]
@@ -83,7 +83,7 @@
             "name": "Visit main page",
             "result": {
               "status": "passed",
-              "duration": 730000000
+              "duration": 780000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "Should be on Eshop url and load data",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 6000000
             }
           },
           {
@@ -103,7 +103,7 @@
             "name": "Clicking on \"1\". element named \"Accessories\"",
             "result": {
               "status": "passed",
-              "duration": 687000000
+              "duration": 656000000
             }
           },
           {
@@ -113,7 +113,7 @@
             "name": "Successful redirect to \"http://uiautomation.domain.local/product-category/accessories/\"",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 4000000
             }
           }
         ]
@@ -138,7 +138,7 @@
             "name": "Visit main page",
             "result": {
               "status": "passed",
-              "duration": 696000000
+              "duration": 783000000
             }
           },
           {
@@ -148,7 +148,7 @@
             "name": "Should be on Eshop url and load data",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 3000000
             }
           },
           {
@@ -158,7 +158,7 @@
             "name": "Clicking on \"2\". element named \"Men products\"",
             "result": {
               "status": "passed",
-              "duration": 640000000
+              "duration": 657000000
             }
           },
           {
@@ -168,7 +168,7 @@
             "name": "Successful redirect to \"http://uiautomation.domain.local/product-category/men/\"",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 3000000
             }
           }
         ]
@@ -193,7 +193,7 @@
             "name": "Visit main page",
             "result": {
               "status": "passed",
-              "duration": 825000000
+              "duration": 815000000
             }
           },
           {
@@ -203,7 +203,7 @@
             "name": "Should be on Eshop url and load data",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 3000000
             }
           },
           {
@@ -213,7 +213,7 @@
             "name": "Clicking on \"3\". element named \"Women products\"",
             "result": {
               "status": "passed",
-              "duration": 655000000
+              "duration": 755000000
             }
           },
           {
@@ -223,7 +223,7 @@
             "name": "Successful redirect to \"http://uiautomation.domain.local/product-category/women/\"",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 10000000
             }
           }
         ]
@@ -248,7 +248,7 @@
             "name": "Visit main page",
             "result": {
               "status": "passed",
-              "duration": 713000000
+              "duration": 805000000
             }
           },
           {
@@ -258,7 +258,7 @@
             "name": "Should be on Eshop url and load data",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 3000000
             }
           },
           {
@@ -268,7 +268,7 @@
             "name": "Put all the items from json into the cart",
             "result": {
               "status": "passed",
-              "duration": 9959000000
+              "duration": 11128000000
             }
           },
           {
@@ -278,7 +278,7 @@
             "name": "Validate that all items are present in cart",
             "result": {
               "status": "passed",
-              "duration": 1343000000
+              "duration": 1298000000
             }
           },
           {
@@ -288,7 +288,7 @@
             "name": "Validate if total price is equal to sum of prices",
             "result": {
               "status": "passed",
-              "duration": 61000000
+              "duration": 38000000
             }
           }
         ]

@@ -39,45 +39,37 @@ class CheckoutPage {
         return cy.iframe('iframe[title="Secure CVC input frame"]').find("input.InputElement")
     }
 
-    getCheckoutDiv(){
+    getCheckoutDiv() {
         return cy.get(".woocommerce-order")
     }
 
-    getItemPrices(){
+    getItemPrices() {
         return cy.get(".product-total")
     }
 
-    getTotalPriceOverviewElement(){
+    getTotalPriceOverviewElement() {
         return cy.get(".woocommerce-order-overview .woocommerce-Price-amount")
     }
 
-    getAllItemPriceElements(){
+    getAllItemPriceElements() {
         return cy.get("tbody tr td:nth-child(2)")
     }
 
-    fillCard(valid=false) {
+    fillCard(dataTable) {
 
-        cy.fixture("checkoutData").then(function(data){
+        const table = dataTable.rawTable
 
-            if (valid) {
-                cy.iframe(`iframe[title="Secure card number input frame"]`).find("input.InputElement").type(data.validCard.number)
-                cy.iframe('iframe[title="Secure expiration date input frame"]').find("input.InputElement").type(data.validCard.expDate)
-                cy.iframe('iframe[title="Secure CVC input frame"]').find("input.InputElement").type(data.validCard.cvc)
-            }
-
-            else {
-                cy.iframe(`iframe[title="Secure card number input frame"]`).find("input.InputElement").type(data.invalidCard.number)
-                cy.iframe('iframe[title="Secure expiration date input frame"]').find("input.InputElement").type(data.invalidCard.expDate)
-                cy.iframe('iframe[title="Secure CVC input frame"]').find("input.InputElement").type(data.invalidCard.cvc)
-            }
-
-        })
+        cy.iframe(`iframe[title="Secure card number input frame"]`).find("input.InputElement").type(table[1][0])
+        cy.iframe('iframe[title="Secure expiration date input frame"]').find("input.InputElement").type(table[1][1])
+        cy.iframe('iframe[title="Secure CVC input frame"]').find("input.InputElement").type(table[1][1])
 
     }
 
 
 
-    fillForm() {
+    fillForm(dataTable) {
+
+        const table = dataTable.rawTable
 
         const form = [
             "#billing_first_name",
@@ -89,18 +81,10 @@ class CheckoutPage {
             "#billing_email"
         ]
 
-        const data = [
-            "Karel",
-            "Oplatek",
-            "Mostní 111",
-            "Praha",
-            "11122",
-            "123456789",
-            "opl@mail.cz"
-        ]
+
 
         for (var i = 0; i < form.length; i++) {
-            cy.get(form[i]).type(data[i])
+            cy.get(form[i]).type(table[1][i])
         }
 
     }

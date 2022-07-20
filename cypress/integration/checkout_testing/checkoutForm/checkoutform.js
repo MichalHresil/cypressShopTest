@@ -59,12 +59,12 @@ Then('Login form should be visible', function () {
 
 //Valid checkout form input provided but with invalid card info
 
-When('Valid form data provided', function () {
-    checkoutpage.fillForm()
+When('Valid form data provided', function (dataTable) {
+    checkoutpage.fillForm(dataTable)
 })
 
-And('Invalid card number is provided', function () {
-    checkoutpage.fillCard(false)
+And('Invalid card information is provided', function (dataTable) {
+    checkoutpage.fillCard(dataTable)
 })
 
 And('Clicking on place order button', function () {
@@ -78,8 +78,8 @@ Then('Error message should be visible', function () {
 
 //Valid form input  and valid payment info plus order summary page testing
 
-And('Valid card number is provided', function () {
-    checkoutpage.fillCard(true)
+And('Valid card information is provided', function (dataTable) {
+    checkoutpage.fillCard(dataTable)
 })
 
 And('Successful redirect to order summary', function () {
@@ -121,4 +121,15 @@ Then('Validate data provided by order summary', function () {
 
 
 
+})
+
+//invalid form data
+
+When('Invalid data provided to form', function(dataTable){
+    checkoutpage.fillForm(dataTable)
+})
+
+
+Then('Error with data-id {string} should be visible', function(err){
+    cy.get(`.woocommerce-error li[data-id='${err}']`).should("exist").and("be.visible")
 })

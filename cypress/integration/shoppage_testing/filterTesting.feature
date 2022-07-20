@@ -19,5 +19,9 @@ Feature: Testing Store page navigation and filtering
             | 130 | 160 |
 
 
-
+    @filterAccessories
+    Scenario: Filtering accessories shows only accessory items
+        Given Clicking on accessories filter button
+        And Successful redirect on accessories page
+        Then Only accesory type items should be present
 

@@ -2,5 +2,6 @@
   "homeUrl": "http://uiautomation.domain.local/",
   "cartUrl": "http://uiautomation.domain.local/cart/",
   "checkoutUrl": "http://uiautomation.domain.local/checkout/",
-  "storeUrl": "http://uiautomation.domain.local/store/"
+  "storeUrl": "http://uiautomation.domain.local/store/",
+  "accessoryUrl": "http://uiautomation.domain.local/product-category/accessories/"
 }

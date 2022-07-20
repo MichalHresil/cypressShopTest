@@ -130,12 +130,17 @@ function generateReport() {
             reportName: `System-Test Report - ${new Date().toLocaleString()}`,
             metadata: {
                 browser: {
-                    name: 'chrome'
+                    name: 'chrome',
+                    version: "103.0.5060.114"
                 },
                 device: 'remote',
                 platform: {
                     name: 'windows',
                     version: "10"
+                },
+                app:{
+                    name:"CN Ecommerce testing",
+                    version: "1.0.0"
                 }
             }
         })
