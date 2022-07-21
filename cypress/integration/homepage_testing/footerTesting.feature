@@ -2,18 +2,19 @@ Feature: Test suite - footer testing
 
     Testing of implemented links in footer
 
-    Background: Opening CN Eshop home page
-        Given Opening CN Eshop home url
-        Then Should be on Eshop home page
+    Background: Opening CN Group E-shop site
+        Given I navigate to "main" page
+        Then I should be on "main" page
 
-    Scenario Outline: Clicking on <btnName> button opens <btnPage> page
-        Given Clicking on button named "<btnName>"
-        Then Successful redirect on "<url>"
+    @footerNavClicking
+    Scenario Outline: Clicking on <btnName> button opens <btnName> page
+        Given I click on footer button named "<btnName>"
+        Then I should be on "<page>" page
 
         Examples:
-            | btnName    | url                                          | btnPage    |
-            | Home       | http://uiautomation.domain.local/            | Home       |
-            | About      | http://uiautomation.domain.local/about/      | About us   |
-            | My account | http://uiautomation.domain.local/my-account/ | My Account |
-            | Cart       | http://uiautomation.domain.local/cart/       | Cart       |
-            | Contact Us | http://uiautomation.domain.local/contact-us/ | Contact us |
+            | btnName    | page    |
+            | Home       | main    |
+            | About      | about   |
+            | My account | account |
+            | Cart       | cart    |
+            | Contact Us | contact |

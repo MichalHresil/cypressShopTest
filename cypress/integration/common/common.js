@@ -14,7 +14,7 @@ const homepage = new HomePage()
 const cartpage = new CartPage()
 
 // =============================================================================
-// STEP DEFINITIONS
+// SHARED STEP DEFINITIONS
 // =============================================================================
 
 
@@ -40,7 +40,7 @@ Given('I navigate to {string} page', function (pageStr) {
                 break
         }
     })
-    
+
 })
 
 // Loading data ================================================================
@@ -68,6 +68,21 @@ Then('I should be on {string} page', function (pageStr) {
         case "accessories":
             cy.url().should("deep.equal", this.url.accessories)
             break
+        case "men":
+            cy.url().should("deep.equal", this.url.men)
+            break
+        case "women":
+            cy.url().should("deep.equal", this.url.women)
+            break
+        case "about":
+            cy.url().should("deep.equal", this.url.about)
+            break
+        case "contact":
+            cy.url().should("deep.equal", this.url.contact)
+            break
+        case "account":
+            cy.url().should("deep.equal", this.url.account)
+            break
     }
 })
 
@@ -77,14 +92,14 @@ And('I put one item to cart', function () {
 })
 
 // Validate item presence ======================================================
-When('I validate the item is present in cart', function(){
-    homepage.getCartButtonNavBar().click({force:true})
+When('I validate the item is present in cart', function () {
+    homepage.getCartButtonNavBar().click({ force: true })
     cartpage.getAllSubPricesFromCart().should("have.length", 1)
 })
 
 // Click on proceed to checkout ================================================
-And('I click on proceed to checkout button', function(){
-    cartpage.getCheckoutButton().click({force: true})
+And('I click on proceed to checkout button', function () {
+    cartpage.getCheckoutButton().click({ force: true })
 })
 
 

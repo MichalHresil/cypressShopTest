@@ -65,7 +65,7 @@ Feature: Test suite - Checkout form testing
 
         And I click on the button with text 'place order'
 
-        Then I should see error message about "<err_type>" with data-id "<error_id>"
+        Then I should see error message about "<err_type>" with data-id "<error_id>" above form
 
         Examples:
             | name_e  | surname_e | address_e    | city_e | postcode_e  | phone_e   | email_e      | error_id          | err_type                    |

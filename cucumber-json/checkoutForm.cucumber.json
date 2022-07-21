@@ -28,7 +28,7 @@
             "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 1398000000
+              "duration": 1163000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "I load data \"cartItems\"",
             "result": {
               "status": "passed",
-              "duration": 37000000
+              "duration": 34000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "I put one item to cart",
             "result": {
               "status": "passed",
-              "duration": 4588000000
+              "duration": 3759000000
             }
           },
           {
@@ -58,7 +58,7 @@
             "name": "I validate the item is present in cart",
             "result": {
               "status": "passed",
-              "duration": 1239000000
+              "duration": 805000000
             }
           },
           {
@@ -68,7 +68,7 @@
             "name": "I click on proceed to checkout button",
             "result": {
               "status": "passed",
-              "duration": 954000000
+              "duration": 877000000
             }
           },
           {
@@ -78,7 +78,7 @@
             "name": "I should be on \"checkout\" page",
             "result": {
               "status": "passed",
-              "duration": 34000000
+              "duration": 7000000
             }
           },
           {
@@ -88,7 +88,7 @@
             "name": "I check the different address button",
             "result": {
               "status": "passed",
-              "duration": 484000000
+              "duration": 352000000
             }
           },
           {
@@ -98,7 +98,7 @@
             "name": "I should see second address form",
             "result": {
               "status": "passed",
-              "duration": 49000000
+              "duration": 24000000
             }
           }
         ]
@@ -123,7 +123,7 @@
             "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 1141000000
+              "duration": 1003000000
             }
           },
           {
@@ -133,7 +133,7 @@
             "name": "I load data \"cartItems\"",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 1000000
             }
           },
           {
@@ -143,7 +143,7 @@
             "name": "I put one item to cart",
             "result": {
               "status": "passed",
-              "duration": 3704000000
+              "duration": 2672000000
             }
           },
           {
@@ -153,7 +153,7 @@
             "name": "I validate the item is present in cart",
             "result": {
               "status": "passed",
-              "duration": 723000000
+              "duration": 622000000
             }
           },
           {
@@ -163,7 +163,7 @@
             "name": "I click on proceed to checkout button",
             "result": {
               "status": "passed",
-              "duration": 909000000
+              "duration": 858000000
             }
           },
           {
@@ -173,7 +173,7 @@
             "name": "I should be on \"checkout\" page",
             "result": {
               "status": "passed",
-              "duration": 33000000
+              "duration": 10000000
             }
           },
           {
@@ -183,7 +183,7 @@
             "name": "I click on button with text 'Click here to login'",
             "result": {
               "status": "passed",
-              "duration": 404000000
+              "duration": 380000000
             }
           },
           {
@@ -193,7 +193,7 @@
             "name": "I should see login form",
             "result": {
               "status": "passed",
-              "duration": 56000000
+              "duration": 22000000
             }
           }
         ]
@@ -218,7 +218,7 @@
             "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 979000000
+              "duration": 1045000000
             }
           },
           {
@@ -228,7 +228,7 @@
             "name": "I load data \"cartItems\"",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 1000000
             }
           },
           {
@@ -238,7 +238,7 @@
             "name": "I put one item to cart",
             "result": {
               "status": "passed",
-              "duration": 3688000000
+              "duration": 3026000000
             }
           },
           {
@@ -248,7 +248,7 @@
             "name": "I validate the item is present in cart",
             "result": {
               "status": "passed",
-              "duration": 777000000
+              "duration": 597000000
             }
           },
           {
@@ -258,7 +258,7 @@
             "name": "I click on proceed to checkout button",
             "result": {
               "status": "passed",
-              "duration": 911000000
+              "duration": 763000000
             }
           },
           {
@@ -268,7 +268,7 @@
             "name": "I should be on \"checkout\" page",
             "result": {
               "status": "passed",
-              "duration": 34000000
+              "duration": 5000000
             }
           },
           {
@@ -305,7 +305,7 @@
             "name": "I fill order form with data",
             "result": {
               "status": "passed",
-              "duration": 3049000000
+              "duration": 2433000000
             }
           },
           {
@@ -334,7 +334,7 @@
             "name": "I fill payment form with data",
             "result": {
               "status": "passed",
-              "duration": 1291000000
+              "duration": 974000000
             }
           },
           {
@@ -344,7 +344,7 @@
             "name": "I click on the button with text 'place order'",
             "result": {
               "status": "passed",
-              "duration": 227000000
+              "duration": 192000000
             }
           },
           {
@@ -354,7 +354,7 @@
             "name": "I should see error message under payment form",
             "result": {
               "status": "passed",
-              "duration": 77000000
+              "duration": 36000000
             }
           }
         ]
@@ -379,7 +379,7 @@
             "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 1199000000
+              "duration": 750000000
             }
           },
           {
@@ -389,7 +389,7 @@
             "name": "I load data \"cartItems\"",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 2000000
             }
           },
           {
@@ -399,7 +399,7 @@
             "name": "I put one item to cart",
             "result": {
               "status": "passed",
-              "duration": 3317000000
+              "duration": 3353000000
             }
           },
           {
@@ -409,7 +409,7 @@
             "name": "I validate the item is present in cart",
             "result": {
               "status": "passed",
-              "duration": 769000000
+              "duration": 656000000
             }
           },
           {
@@ -419,7 +419,7 @@
             "name": "I click on proceed to checkout button",
             "result": {
               "status": "passed",
-              "duration": 967000000
+              "duration": 801000000
             }
           },
           {
@@ -429,7 +429,7 @@
             "name": "I should be on \"checkout\" page",
             "result": {
               "status": "passed",
-              "duration": 41000000
+              "duration": 4000000
             }
           },
           {
@@ -466,7 +466,7 @@
             "name": "I fill order form with data",
             "result": {
               "status": "passed",
-              "duration": 3031000000
+              "duration": 2413000000
             }
           },
           {
@@ -495,7 +495,7 @@
             "name": "I fill payment form with data",
             "result": {
               "status": "passed",
-              "duration": 1298000000
+              "duration": 920000000
             }
           },
           {
@@ -505,7 +505,7 @@
             "name": "I click on the button with text 'place order'",
             "result": {
               "status": "passed",
-              "duration": 274000000
+              "duration": 194000000
             }
           },
           {
@@ -515,7 +515,7 @@
             "name": "I should be redirected to order summary",
             "result": {
               "status": "passed",
-              "duration": 8005000000
+              "duration": 7443000000
             }
           },
           {
@@ -525,7 +525,7 @@
             "name": "I validate data provided by order summary",
             "result": {
               "status": "passed",
-              "duration": 148000000
+              "duration": 65000000
             }
           }
         ]
@@ -550,7 +550,7 @@
             "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 1049000000
+              "duration": 816000000
             }
           },
           {
@@ -559,8 +559,7 @@
             "line": 8,
             "name": "I load data \"cartItems\"",
             "result": {
-              "status": "passed",
-              "duration": 3000000
+              "status": "passed"
             }
           },
           {
@@ -570,7 +569,7 @@
             "name": "I put one item to cart",
             "result": {
               "status": "passed",
-              "duration": 3404000000
+              "duration": 2917000000
             }
           },
           {
@@ -580,7 +579,7 @@
             "name": "I validate the item is present in cart",
             "result": {
               "status": "passed",
-              "duration": 834000000
+              "duration": 606000000
             }
           },
           {
@@ -590,7 +589,7 @@
             "name": "I click on proceed to checkout button",
             "result": {
               "status": "passed",
-              "duration": 1124000000
+              "duration": 814000000
             }
           },
           {
@@ -600,7 +599,7 @@
             "name": "I should be on \"checkout\" page",
             "result": {
               "status": "passed",
-              "duration": 41000000
+              "duration": 5000000
             }
           },
           {
@@ -637,7 +636,7 @@
             "name": "I fill order form with data",
             "result": {
               "status": "passed",
-              "duration": 3267000000
+              "duration": 2453000000
             }
           },
           {
@@ -666,7 +665,7 @@
             "name": "I fill payment form with data",
             "result": {
               "status": "passed",
-              "duration": 1461000000
+              "duration": 898000000
             }
           },
           {
@@ -676,7 +675,7 @@
             "name": "I click on the button with text 'place order'",
             "result": {
               "status": "passed",
-              "duration": 242000000
+              "duration": 199000000
             }
           },
           {
@@ -686,7 +685,7 @@
             "name": "I should see error message about \"postcode\" with data-id \"billing_postcode\"",
             "result": {
               "status": "passed",
-              "duration": 1060000000
+              "duration": 897000000
             }
           }
         ]
@@ -711,7 +710,7 @@
             "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 1022000000
+              "duration": 10962000000
             }
           },
           {
@@ -721,7 +720,7 @@
             "name": "I load data \"cartItems\"",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 1000000
             }
           },
           {
@@ -731,7 +730,7 @@
             "name": "I put one item to cart",
             "result": {
               "status": "passed",
-              "duration": 3666000000
+              "duration": 3203000000
             }
           },
           {
@@ -741,7 +740,7 @@
             "name": "I validate the item is present in cart",
             "result": {
               "status": "passed",
-              "duration": 811000000
+              "duration": 871000000
             }
           },
           {
@@ -751,7 +750,7 @@
             "name": "I click on proceed to checkout button",
             "result": {
               "status": "passed",
-              "duration": 1185000000
+              "duration": 997000000
             }
           },
           {
@@ -761,7 +760,7 @@
             "name": "I should be on \"checkout\" page",
             "result": {
               "status": "passed",
-              "duration": 50000000
+              "duration": 5000000
             }
           },
           {
@@ -798,7 +797,7 @@
             "name": "I fill order form with data",
             "result": {
               "status": "passed",
-              "duration": 3193000000
+              "duration": 2756000000
             }
           },
           {
@@ -827,7 +826,7 @@
             "name": "I fill payment form with data",
             "result": {
               "status": "passed",
-              "duration": 1568000000
+              "duration": 1285000000
             }
           },
           {
@@ -837,7 +836,7 @@
             "name": "I click on the button with text 'place order'",
             "result": {
               "status": "passed",
-              "duration": 355000000
+              "duration": 240000000
             }
           },
           {
@@ -847,7 +846,7 @@
             "name": "I should see error message about \"email\" with data-id \"billing_email\"",
             "result": {
               "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `.woocommerce-error li[data-id='billing_email']`, but never found it.\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:122:63)\n    at Context.resolveAndRunStepDefinition (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:10911:29)\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:10232:35)"
+              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `.woocommerce-error li[data-id='billing_email']`, but never found it.\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:122:63)\n    at Context.resolveAndRunStepDefinition (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:10931:29)\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:10252:35)"
             }
           }
         ]
@@ -872,7 +871,7 @@
             "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 1142000000
+              "duration": 1137000000
             }
           },
           {
@@ -881,8 +880,7 @@
             "line": 8,
             "name": "I load data \"cartItems\"",
             "result": {
-              "status": "passed",
-              "duration": 4000000
+              "status": "passed"
             }
           },
           {
@@ -892,7 +890,7 @@
             "name": "I put one item to cart",
             "result": {
               "status": "passed",
-              "duration": 4051000000
+              "duration": 3815000000
             }
           },
           {
@@ -902,7 +900,7 @@
             "name": "I validate the item is present in cart",
             "result": {
               "status": "passed",
-              "duration": 920000000
+              "duration": 713000000
             }
           },
           {
@@ -912,7 +910,7 @@
             "name": "I click on proceed to checkout button",
             "result": {
               "status": "passed",
-              "duration": 2456000000
+              "duration": 1635000000
             }
           },
           {
@@ -922,7 +920,7 @@
             "name": "I should be on \"checkout\" page",
             "result": {
               "status": "passed",
-              "duration": 47000000
+              "duration": 5000000
             }
           },
           {
@@ -959,7 +957,7 @@
             "name": "I fill order form with data",
             "result": {
               "status": "passed",
-              "duration": 3413000000
+              "duration": 2487000000
             }
           },
           {
@@ -988,7 +986,7 @@
             "name": "I fill payment form with data",
             "result": {
               "status": "passed",
-              "duration": 1591000000
+              "duration": 1104000000
             }
           },
           {
@@ -998,7 +996,7 @@
             "name": "I click on the button with text 'place order'",
             "result": {
               "status": "passed",
-              "duration": 276000000
+              "duration": 212000000
             }
           },
           {
@@ -1008,7 +1006,7 @@
             "name": "I should see error message about \"phone number\" with data-id \"billing_phone\"",
             "result": {
               "status": "passed",
-              "duration": 1201000000
+              "duration": 1251000000
             }
           }
         ]
@@ -1033,7 +1031,7 @@
             "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 1182000000
+              "duration": 17852000000
             }
           },
           {
@@ -1043,7 +1041,7 @@
             "name": "I load data \"cartItems\"",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 2000000
             }
           },
           {
@@ -1053,7 +1051,7 @@
             "name": "I put one item to cart",
             "result": {
               "status": "passed",
-              "duration": 3335000000
+              "duration": 3588000000
             }
           },
           {
@@ -1063,7 +1061,7 @@
             "name": "I validate the item is present in cart",
             "result": {
               "status": "passed",
-              "duration": 729000000
+              "duration": 824000000
             }
           },
           {
@@ -1073,7 +1071,7 @@
             "name": "I click on proceed to checkout button",
             "result": {
               "status": "passed",
-              "duration": 917000000
+              "duration": 1177000000
             }
           },
           {
@@ -1083,7 +1081,7 @@
             "name": "I should be on \"checkout\" page",
             "result": {
               "status": "passed",
-              "duration": 31000000
+              "duration": 4000000
             }
           },
           {
@@ -1120,7 +1118,7 @@
             "name": "I fill order form with data",
             "result": {
               "status": "passed",
-              "duration": 2908000000
+              "duration": 3414000000
             }
           },
           {
@@ -1149,7 +1147,7 @@
             "name": "I fill payment form with data",
             "result": {
               "status": "passed",
-              "duration": 1297000000
+              "duration": 1825000000
             }
           },
           {
@@ -1159,7 +1157,7 @@
             "name": "I click on the button with text 'place order'",
             "result": {
               "status": "passed",
-              "duration": 288000000
+              "duration": 258000000
             }
           },
           {
@@ -1169,7 +1167,7 @@
             "name": "I should see error message about \"address(non breaking space)\" with data-id \"billing_address_1\"",
             "result": {
               "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `.woocommerce-error li[data-id='billing_address_1']`, but never found it.\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:122:63)\n    at Context.resolveAndRunStepDefinition (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:10911:29)\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:10232:35)"
+              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `.woocommerce-error li[data-id='billing_address_1']`, but never found it.\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:122:63)\n    at Context.resolveAndRunStepDefinition (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:10931:29)\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:10252:35)"
             }
           }
         ]
@@ -1194,7 +1192,7 @@
             "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 1240000000
+              "duration": 1096000000
             }
           },
           {
@@ -1204,7 +1202,7 @@
             "name": "I load data \"cartItems\"",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 1000000
             }
           },
           {
@@ -1214,7 +1212,7 @@
             "name": "I put one item to cart",
             "result": {
               "status": "passed",
-              "duration": 3934000000
+              "duration": 3531000000
             }
           },
           {
@@ -1224,7 +1222,7 @@
             "name": "I validate the item is present in cart",
             "result": {
               "status": "passed",
-              "duration": 862000000
+              "duration": 780000000
             }
           },
           {
@@ -1234,7 +1232,7 @@
             "name": "I click on proceed to checkout button",
             "result": {
               "status": "passed",
-              "duration": 1757000000
+              "duration": 2107000000
             }
           },
           {
@@ -1244,7 +1242,7 @@
             "name": "I should be on \"checkout\" page",
             "result": {
               "status": "passed",
-              "duration": 46000000
+              "duration": 4000000
             }
           },
           {
@@ -1281,7 +1279,7 @@
             "name": "I fill order form with data",
             "result": {
               "status": "passed",
-              "duration": 2555000000
+              "duration": 2516000000
             }
           },
           {
@@ -1310,7 +1308,7 @@
             "name": "I fill payment form with data",
             "result": {
               "status": "passed",
-              "duration": 1261000000
+              "duration": 1243000000
             }
           },
           {
@@ -1320,7 +1318,7 @@
             "name": "I click on the button with text 'place order'",
             "result": {
               "status": "passed",
-              "duration": 238000000
+              "duration": 241000000
             }
           },
           {
@@ -1330,7 +1328,7 @@
             "name": "I should see error message about \"empty address\" with data-id \"billing_address_1\"",
             "result": {
               "status": "passed",
-              "duration": 1058000000
+              "duration": 1001000000
             }
           }
         ]

@@ -1,36 +1,35 @@
 Feature: 'Test suite - Testing navigation bar'
 
     Testing of navigation bar and it's components on from home page
-    Pre Condition: Opening home page
 
     Background: Opening CN Group E-shop site
-        Given Opening Eshop site url
-        Then Should be on Eshop site
+        Given I navigate to "main" page
+        Then I should be on "main" page
 
     @logobutton
     Scenario: Clicking on logo opens homepage
-        Given Clicking on page logo
-        Then Successful redirect on home page
+        Given I click on E-shop page logo
+        Then I should be on "main" page
 
     @navbuttons
-    Scenario Outline: Clicking on <btnName> button opens <btnPage> page
-        Given Clicking on button named "<btnName>"
-        Then Successful redirect on "<url>"
+    Scenario Outline: Clicking on <btnName> button opens <btnName> page
+        Given I click on button named "<btnName>"
+        Then I should be on "<page>" page
 
         Examples:
-            | btnName     | url                                                            | btnPage       |
-            | Home        | http://uiautomation.domain.local/                              | Home          |
-            | Store       | http://uiautomation.domain.local/store/                        | Store         |
-            | Men         | http://uiautomation.domain.local/product-category/men/         | Men product   |
-            | Women       | http://uiautomation.domain.local/product-category/women/       | Women product |
-            | Accessories | http://uiautomation.domain.local/product-category/accessories/ | Accessories   |
-            | About       | http://uiautomation.domain.local/about/                        | About us      |
-            | Contact Us  | http://uiautomation.domain.local/contact-us/                   | Contact us    |
-            | Account     | http://uiautomation.domain.local/my-account/                   | My Account    |
+            | btnName     | page        |
+            | Home        | main        |
+            | Store       | store       |
+            | Men         | men         |
+            | Women       | women       |
+            | Accessories | accessories |
+            | About       | about       |
+            | Contact Us  | contact     |
+            | Account     | account     |
 
     @cartbutton
     Scenario: Clicking on Cart button opens shopping cart page
-        Given Clicking on button with cart icon
-        Then Successful redirect on cart page
+        Given I click on cart button
+        Then I should be on "cart" page
 
 

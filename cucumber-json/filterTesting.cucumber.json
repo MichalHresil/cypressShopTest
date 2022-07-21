@@ -28,7 +28,7 @@
             "name": "I navigate to \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 1118000000
+              "duration": 1068000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "I should be on \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 4000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "I set the filter to in value of \"110\" and max value of \"140\"",
             "result": {
               "status": "passed",
-              "duration": 1317000000
+              "duration": 1325000000
             }
           },
           {
@@ -58,7 +58,7 @@
             "name": "I sort the items in descending order",
             "result": {
               "status": "passed",
-              "duration": 127000000
+              "duration": 115000000
             }
           },
           {
@@ -68,7 +68,7 @@
             "name": "I should only see items with price between \"110\" and \"140\"",
             "result": {
               "status": "passed",
-              "duration": 33000000
+              "duration": 9000000
             }
           }
         ]
@@ -93,7 +93,7 @@
             "name": "I navigate to \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 1360000000
+              "duration": 1373000000
             }
           },
           {
@@ -103,7 +103,7 @@
             "name": "I should be on \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 3000000
             }
           },
           {
@@ -113,7 +113,7 @@
             "name": "I set the filter to in value of \"120\" and max value of \"120\"",
             "result": {
               "status": "passed",
-              "duration": 1479000000
+              "duration": 1201000000
             }
           },
           {
@@ -123,7 +123,7 @@
             "name": "I sort the items in descending order",
             "result": {
               "status": "passed",
-              "duration": 166000000
+              "duration": 112000000
             }
           },
           {
@@ -133,7 +133,7 @@
             "name": "I should only see items with price between \"120\" and \"120\"",
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 5000000
             }
           }
         ]
@@ -158,7 +158,7 @@
             "name": "I navigate to \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 1400000000
+              "duration": 1154000000
             }
           },
           {
@@ -168,7 +168,7 @@
             "name": "I should be on \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 2000000
             }
           },
           {
@@ -178,7 +178,7 @@
             "name": "I set the filter to in value of \"130\" and max value of \"160\"",
             "result": {
               "status": "passed",
-              "duration": 1379000000
+              "duration": 1280000000
             }
           },
           {
@@ -188,7 +188,7 @@
             "name": "I sort the items in descending order",
             "result": {
               "status": "passed",
-              "duration": 129000000
+              "duration": 113000000
             }
           },
           {
@@ -198,7 +198,7 @@
             "name": "I should only see items with price between \"130\" and \"160\"",
             "result": {
               "status": "passed",
-              "duration": 60000000
+              "duration": 19000000
             }
           }
         ]
@@ -223,7 +223,7 @@
             "name": "I navigate to \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 1677000000
+              "duration": 1255000000
             }
           },
           {
@@ -233,7 +233,7 @@
             "name": "I should be on \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 4000000
             }
           },
           {
@@ -243,7 +243,7 @@
             "name": "I click on filter button with name \"Men\"",
             "result": {
               "status": "passed",
-              "duration": 708000000
+              "duration": 596000000
             }
           },
           {
@@ -252,8 +252,7 @@
             "line": 26,
             "name": "I should be on \"Men\" page",
             "result": {
-              "status": "passed",
-              "duration": 3000000
+              "status": "passed"
             }
           },
           {
@@ -263,7 +262,7 @@
             "name": "I should only see items with category type \"Men\"",
             "result": {
               "status": "passed",
-              "duration": 21000000
+              "duration": 14000000
             }
           }
         ]
@@ -288,7 +287,7 @@
             "name": "I navigate to \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 627000000
+              "duration": 755000000
             }
           },
           {
@@ -298,7 +297,7 @@
             "name": "I should be on \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 4000000
             }
           },
           {
@@ -308,7 +307,7 @@
             "name": "I click on filter button with name \"Women\"",
             "result": {
               "status": "passed",
-              "duration": 677000000
+              "duration": 616000000
             }
           },
           {
@@ -318,7 +317,7 @@
             "name": "I should be on \"Women\" page",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 2000000
             }
           },
           {
@@ -328,7 +327,7 @@
             "name": "I should only see items with category type \"Women\"",
             "result": {
               "status": "failed",
-              "error_message": "AssertionError\n    + expected - actual\n\n    -9\n    +3\n\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\shoppage_testing\\filterTesting.feature:179:32)"
+              "error_message": "AssertionError\n    + expected - actual\n\n    -9\n    +3\n\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\shoppage_testing\\filterTesting.feature:199:32)"
             }
           }
         ]
@@ -353,7 +352,7 @@
             "name": "I navigate to \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 586000000
+              "duration": 577000000
             }
           },
           {
@@ -363,7 +362,7 @@
             "name": "I should be on \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 2000000
             }
           },
           {
@@ -373,7 +372,7 @@
             "name": "I click on filter button with name \"Accessories\"",
             "result": {
               "status": "passed",
-              "duration": 640000000
+              "duration": 608000000
             }
           },
           {
@@ -382,8 +381,7 @@
             "line": 26,
             "name": "I should be on \"Accessories\" page",
             "result": {
-              "status": "passed",
-              "duration": 4000000
+              "status": "passed"
             }
           },
           {
@@ -393,7 +391,7 @@
             "name": "I should only see items with category type \"Accessories\"",
             "result": {
               "status": "passed",
-              "duration": 18000000
+              "duration": 11000000
             }
           }
         ]
@@ -418,7 +416,7 @@
             "name": "I navigate to \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 630000000
+              "duration": 559000000
             }
           },
           {
@@ -428,7 +426,7 @@
             "name": "I should be on \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 3000000
             }
           },
           {
@@ -438,7 +436,7 @@
             "name": "I insert the word \"jeans\" into search input",
             "result": {
               "status": "passed",
-              "duration": 227000000
+              "duration": 215000000
             }
           },
           {
@@ -448,7 +446,7 @@
             "name": "I click on search button",
             "result": {
               "status": "passed",
-              "duration": 616000000
+              "duration": 554000000
             }
           },
           {
@@ -458,7 +456,7 @@
             "name": "I should only see names containing the word \"jeans\"",
             "result": {
               "status": "passed",
-              "duration": 34000000
+              "duration": 15000000
             }
           }
         ]
@@ -483,7 +481,7 @@
             "name": "I navigate to \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 602000000
+              "duration": 546000000
             }
           },
           {
@@ -493,7 +491,7 @@
             "name": "I should be on \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 2000000
             }
           },
           {
@@ -503,7 +501,7 @@
             "name": "I insert the word \"hoodie\" into search input",
             "result": {
               "status": "passed",
-              "duration": 242000000
+              "duration": 225000000
             }
           },
           {
@@ -513,7 +511,7 @@
             "name": "I click on search button",
             "result": {
               "status": "passed",
-              "duration": 606000000
+              "duration": 571000000
             }
           },
           {
@@ -523,7 +521,7 @@
             "name": "I should only see names containing the word \"hoodie\"",
             "result": {
               "status": "passed",
-              "duration": 22000000
+              "duration": 11000000
             }
           }
         ]
@@ -548,7 +546,7 @@
             "name": "I navigate to \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 567000000
+              "duration": 613000000
             }
           },
           {
@@ -558,7 +556,7 @@
             "name": "I should be on \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 3000000
             }
           },
           {
@@ -568,7 +566,7 @@
             "name": "I insert the word \"tshirt\" into search input",
             "result": {
               "status": "passed",
-              "duration": 233000000
+              "duration": 223000000
             }
           },
           {
@@ -578,7 +576,7 @@
             "name": "I click on search button",
             "result": {
               "status": "passed",
-              "duration": 660000000
+              "duration": 542000000
             }
           },
           {
@@ -588,7 +586,7 @@
             "name": "I should only see names containing the word \"tshirt\"",
             "result": {
               "status": "passed",
-              "duration": 34000000
+              "duration": 11000000
             }
           }
         ]
@@ -613,7 +611,7 @@
             "name": "I navigate to \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 583000000
+              "duration": 518000000
             }
           },
           {
@@ -623,7 +621,7 @@
             "name": "I should be on \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 2000000
             }
           },
           {
@@ -633,7 +631,7 @@
             "name": "I insert the word \"bag\" into search input",
             "result": {
               "status": "passed",
-              "duration": 197000000
+              "duration": 189000000
             }
           },
           {
@@ -643,7 +641,7 @@
             "name": "I click on search button",
             "result": {
               "status": "passed",
-              "duration": 553000000
+              "duration": 527000000
             }
           },
           {
@@ -653,7 +651,7 @@
             "name": "I should only see names containing the word \"bag\"",
             "result": {
               "status": "passed",
-              "duration": 17000000
+              "duration": 6000000
             }
           }
         ]
@@ -678,7 +676,7 @@
             "name": "I navigate to \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 609000000
+              "duration": 556000000
             }
           },
           {
@@ -688,7 +686,7 @@
             "name": "I should be on \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 2000000
             }
           },
           {
@@ -698,7 +696,7 @@
             "name": "I insert the word \"shoes\" into search input",
             "result": {
               "status": "passed",
-              "duration": 246000000
+              "duration": 210000000
             }
           },
           {
@@ -708,7 +706,7 @@
             "name": "I click on search button",
             "result": {
               "status": "passed",
-              "duration": 608000000
+              "duration": 519000000
             }
           },
           {
@@ -718,7 +716,7 @@
             "name": "I should only see names containing the word \"shoes\"",
             "result": {
               "status": "passed",
-              "duration": 29000000
+              "duration": 11000000
             }
           }
         ]
@@ -743,7 +741,7 @@
             "name": "I navigate to \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 628000000
+              "duration": 580000000
             }
           },
           {
@@ -753,7 +751,7 @@
             "name": "I should be on \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 3000000
             }
           },
           {
@@ -763,7 +761,7 @@
             "name": "I insert the word \"bracelet\" into search input",
             "result": {
               "status": "passed",
-              "duration": 274000000
+              "duration": 248000000
             }
           },
           {
@@ -773,7 +771,7 @@
             "name": "I click on search button",
             "result": {
               "status": "passed",
-              "duration": 631000000
+              "duration": 514000000
             }
           },
           {
@@ -783,7 +781,7 @@
             "name": "I should only see names containing the word \"bracelet\"",
             "result": {
               "status": "passed",
-              "duration": 25000000
+              "duration": 8000000
             }
           }
         ]
@@ -808,7 +806,7 @@
             "name": "I navigate to \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 622000000
+              "duration": 570000000
             }
           },
           {
@@ -818,7 +816,7 @@
             "name": "I should be on \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 2000000
             }
           },
           {
@@ -828,7 +826,7 @@
             "name": "I insert the word \"purse\" into search input",
             "result": {
               "status": "passed",
-              "duration": 269000000
+              "duration": 211000000
             }
           },
           {
@@ -838,7 +836,7 @@
             "name": "I click on search button",
             "result": {
               "status": "passed",
-              "duration": 698000000
+              "duration": 531000000
             }
           },
           {
@@ -848,7 +846,7 @@
             "name": "I should only see names containing the word \"purse\"",
             "result": {
               "status": "passed",
-              "duration": 24000000
+              "duration": 4000000
             }
           }
         ]

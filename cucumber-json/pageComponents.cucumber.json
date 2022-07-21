@@ -1,6 +1,6 @@
 [
   {
-    "description": "    Test of main home page elements\n    Pre-Condition: open home page",
+    "description": "    Test of main home page elements",
     "keyword": "Feature",
     "name": "Test suite - Page components testing",
     "line": 1,
@@ -24,41 +24,51 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 7,
-            "name": "Visit main page",
+            "line": 6,
+            "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 1048000000
+              "duration": 835000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I load data \"cartItems\"",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 8,
-            "name": "Should be on Eshop url and load data",
+            "name": "I should be on \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 21000000
+              "duration": 5000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 12,
-            "name": "Clicking on go shopping button",
+            "name": "I click on 'Go shopping' button",
             "result": {
               "status": "passed",
-              "duration": 774000000
+              "duration": 674000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 13,
-            "name": "Successful redirect to store page",
+            "name": "I should be on \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 6000000
             }
           }
         ]
@@ -79,41 +89,51 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 7,
-            "name": "Visit main page",
+            "line": 6,
+            "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 780000000
+              "duration": 678000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I load data \"cartItems\"",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 8,
-            "name": "Should be on Eshop url and load data",
+            "name": "I should be on \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 2000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 17,
-            "name": "Clicking on \"1\". element named \"Accessories\"",
+            "name": "I click on category item called \"Accessories\"",
             "result": {
               "status": "passed",
-              "duration": 656000000
+              "duration": 565000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 18,
-            "name": "Successful redirect to \"http://uiautomation.domain.local/product-category/accessories/\"",
+            "name": "I should be on \"accessories\" page",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 2000000
             }
           }
         ]
@@ -134,18 +154,28 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 7,
-            "name": "Visit main page",
+            "line": 6,
+            "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 783000000
+              "duration": 642000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I load data \"cartItems\"",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 8,
-            "name": "Should be on Eshop url and load data",
+            "name": "I should be on \"main\" page",
             "result": {
               "status": "passed",
               "duration": 3000000
@@ -155,20 +185,20 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 17,
-            "name": "Clicking on \"2\". element named \"Men products\"",
+            "name": "I click on category item called \"Men products\"",
             "result": {
               "status": "passed",
-              "duration": 657000000
+              "duration": 583000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 18,
-            "name": "Successful redirect to \"http://uiautomation.domain.local/product-category/men/\"",
+            "name": "I should be on \"men\" page",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 2000000
             }
           }
         ]
@@ -189,41 +219,51 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 7,
-            "name": "Visit main page",
+            "line": 6,
+            "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 815000000
+              "duration": 654000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I load data \"cartItems\"",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 8,
-            "name": "Should be on Eshop url and load data",
+            "name": "I should be on \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 2000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 17,
-            "name": "Clicking on \"3\". element named \"Women products\"",
+            "name": "I click on category item called \"Women products\"",
             "result": {
               "status": "passed",
-              "duration": 755000000
+              "duration": 566000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 18,
-            "name": "Successful redirect to \"http://uiautomation.domain.local/product-category/women/\"",
+            "name": "I should be on \"women\" page",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 3000000
             }
           }
         ]
@@ -244,18 +284,18 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 7,
-            "name": "Visit main page",
+            "line": 6,
+            "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 805000000
+              "duration": 664000000
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "Should be on Eshop url and load data",
+            "keyword": "And ",
+            "line": 7,
+            "name": "I load data \"cartItems\"",
             "result": {
               "status": "passed",
               "duration": 3000000
@@ -263,32 +303,42 @@
           },
           {
             "arguments": [],
-            "keyword": "Given ",
-            "line": 28,
-            "name": "Put all the items from json into the cart",
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be on \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 11128000000
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "I put all the items from json into the cart",
+            "result": {
+              "status": "passed",
+              "duration": 8929000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 29,
-            "name": "Validate that all items are present in cart",
+            "name": "I validate that all items are present in cart",
             "result": {
               "status": "passed",
-              "duration": 1298000000
+              "duration": 1040000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 30,
-            "name": "Validate if total price is equal to sum of prices",
+            "name": "I validate if total price is equal to sum of prices",
             "result": {
               "status": "passed",
-              "duration": 38000000
+              "duration": 31000000
             }
           }
         ]
