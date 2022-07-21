@@ -14,8 +14,8 @@ class HomePage {
         return cy.get('.site-footer-primary-section-1  > aside div section ul ').contains(name)
     }
 
-    getProductElementByChild(child){
-        return cy.get(`.products li:nth-child(${child})`)
+    getProductElementByName(name){
+        return cy.get(`.products li a h2`).contains(name)
     }
 
     getGoShoppingBtn(){

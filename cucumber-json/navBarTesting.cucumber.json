@@ -1,6 +1,6 @@
 [
   {
-    "description": "    Testing of navigation bar and it's components on from home page\n    Pre Condition: Opening home page",
+    "description": "    Testing of navigation bar and it's components on from home page",
     "keyword": "Feature",
     "name": "'Test suite - Testing navigation bar'",
     "line": 1,
@@ -11,12 +11,12 @@
       {
         "id": "'test-suite---testing-navigation-bar';clicking-on-logo-opens-homepage",
         "keyword": "Scenario",
-        "line": 11,
+        "line": 10,
         "name": "Clicking on logo opens homepage",
         "tags": [
           {
             "name": "@logobutton",
-            "line": 10
+            "line": 9
           }
         ],
         "type": "scenario",
@@ -24,38 +24,38 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 7,
-            "name": "Opening Eshop site url",
+            "line": 6,
+            "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 1029000000
+              "duration": 942000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
-            "name": "Should be on Eshop site",
+            "line": 7,
+            "name": "I should be on \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 6000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 12,
-            "name": "Clicking on page logo",
+            "line": 11,
+            "name": "I click on E-shop page logo",
             "result": {
               "status": "passed",
-              "duration": 786000000
+              "duration": 749000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 13,
-            "name": "Successful redirect on home page",
+            "line": 12,
+            "name": "I should be on \"main\" page",
             "result": {
               "status": "passed",
               "duration": 3000000
@@ -66,12 +66,12 @@
       {
         "id": "'test-suite---testing-navigation-bar';clicking-on-home-button-opens-home-page",
         "keyword": "Scenario",
-        "line": 22,
+        "line": 21,
         "name": "Clicking on Home button opens Home page",
         "tags": [
           {
             "name": "@navbuttons",
-            "line": 15
+            "line": 14
           }
         ],
         "type": "scenario",
@@ -79,38 +79,148 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 7,
-            "name": "Opening Eshop site url",
+            "line": 6,
+            "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 776000000
+              "duration": 646000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
-            "name": "Should be on Eshop site",
+            "line": 7,
+            "name": "I should be on \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 3000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 17,
-            "name": "Clicking on button named \"Home\"",
+            "line": 16,
+            "name": "I click on button named \"Home\"",
             "result": {
               "status": "passed",
-              "duration": 825000000
+              "duration": 688000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 18,
-            "name": "Successful redirect on \"http://uiautomation.domain.local/\"",
+            "line": 17,
+            "name": "I should be on \"main\" page",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "'test-suite---testing-navigation-bar';clicking-on-store-button-opens-store-page",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Clicking on Store button opens Store page",
+        "tags": [
+          {
+            "name": "@navbuttons",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to \"main\" page",
+            "result": {
+              "status": "passed",
+              "duration": 666000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be on \"main\" page",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I click on button named \"Store\"",
+            "result": {
+              "status": "passed",
+              "duration": 602000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should be on \"store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "'test-suite---testing-navigation-bar';clicking-on-men-button-opens-men-page",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Clicking on Men button opens Men page",
+        "tags": [
+          {
+            "name": "@navbuttons",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to \"main\" page",
+            "result": {
+              "status": "passed",
+              "duration": 644000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be on \"main\" page",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I click on button named \"Men\"",
+            "result": {
+              "status": "passed",
+              "duration": 627000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should be on \"men\" page",
             "result": {
               "status": "passed",
               "duration": 5000000
@@ -119,69 +229,14 @@
         ]
       },
       {
-        "id": "'test-suite---testing-navigation-bar';clicking-on-store-button-opens-store-page",
-        "keyword": "Scenario",
-        "line": 23,
-        "name": "Clicking on Store button opens Store page",
-        "tags": [
-          {
-            "name": "@navbuttons",
-            "line": 15
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "Opening Eshop site url",
-            "result": {
-              "status": "passed",
-              "duration": 722000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "Should be on Eshop site",
-            "result": {
-              "status": "passed",
-              "duration": 3000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 17,
-            "name": "Clicking on button named \"Store\"",
-            "result": {
-              "status": "passed",
-              "duration": 728000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 18,
-            "name": "Successful redirect on \"http://uiautomation.domain.local/store/\"",
-            "result": {
-              "status": "passed",
-              "duration": 4000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "'test-suite---testing-navigation-bar';clicking-on-men-button-opens-men-product-page",
+        "id": "'test-suite---testing-navigation-bar';clicking-on-women-button-opens-women-page",
         "keyword": "Scenario",
         "line": 24,
-        "name": "Clicking on Men button opens Men product page",
+        "name": "Clicking on Women button opens Women page",
         "tags": [
           {
             "name": "@navbuttons",
-            "line": 15
+            "line": 14
           }
         ],
         "type": "scenario",
@@ -189,18 +244,18 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 7,
-            "name": "Opening Eshop site url",
+            "line": 6,
+            "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 836000000
+              "duration": 875000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
-            "name": "Should be on Eshop site",
+            "line": 7,
+            "name": "I should be on \"main\" page",
             "result": {
               "status": "passed",
               "duration": 3000000
@@ -209,73 +264,18 @@
           {
             "arguments": [],
             "keyword": "Given ",
+            "line": 16,
+            "name": "I click on button named \"Women\"",
+            "result": {
+              "status": "passed",
+              "duration": 576000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
             "line": 17,
-            "name": "Clicking on button named \"Men\"",
-            "result": {
-              "status": "passed",
-              "duration": 1078000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 18,
-            "name": "Successful redirect on \"http://uiautomation.domain.local/product-category/men/\"",
-            "result": {
-              "status": "passed",
-              "duration": 3000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "'test-suite---testing-navigation-bar';clicking-on-women-button-opens-women-product-page",
-        "keyword": "Scenario",
-        "line": 25,
-        "name": "Clicking on Women button opens Women product page",
-        "tags": [
-          {
-            "name": "@navbuttons",
-            "line": 15
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "Opening Eshop site url",
-            "result": {
-              "status": "passed",
-              "duration": 783000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "Should be on Eshop site",
-            "result": {
-              "status": "passed",
-              "duration": 4000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 17,
-            "name": "Clicking on button named \"Women\"",
-            "result": {
-              "status": "passed",
-              "duration": 681000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 18,
-            "name": "Successful redirect on \"http://uiautomation.domain.local/product-category/women/\"",
+            "name": "I should be on \"women\" page",
             "result": {
               "status": "passed",
               "duration": 3000000
@@ -286,12 +286,12 @@
       {
         "id": "'test-suite---testing-navigation-bar';clicking-on-accessories-button-opens-accessories-page",
         "keyword": "Scenario",
-        "line": 26,
+        "line": 25,
         "name": "Clicking on Accessories button opens Accessories page",
         "tags": [
           {
             "name": "@navbuttons",
-            "line": 15
+            "line": 14
           }
         ],
         "type": "scenario",
@@ -299,38 +299,38 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 7,
-            "name": "Opening Eshop site url",
+            "line": 6,
+            "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 709000000
+              "duration": 638000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
-            "name": "Should be on Eshop site",
+            "line": 7,
+            "name": "I should be on \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 2000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 17,
-            "name": "Clicking on button named \"Accessories\"",
+            "line": 16,
+            "name": "I click on button named \"Accessories\"",
             "result": {
               "status": "passed",
-              "duration": 654000000
+              "duration": 538000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 18,
-            "name": "Successful redirect on \"http://uiautomation.domain.local/product-category/accessories/\"",
+            "line": 17,
+            "name": "I should be on \"accessories\" page",
             "result": {
               "status": "passed",
               "duration": 3000000
@@ -339,14 +339,14 @@
         ]
       },
       {
-        "id": "'test-suite---testing-navigation-bar';clicking-on-about-button-opens-about-us-page",
+        "id": "'test-suite---testing-navigation-bar';clicking-on-about-button-opens-about-page",
         "keyword": "Scenario",
-        "line": 27,
-        "name": "Clicking on About button opens About us page",
+        "line": 26,
+        "name": "Clicking on About button opens About page",
         "tags": [
           {
             "name": "@navbuttons",
-            "line": 15
+            "line": 14
           }
         ],
         "type": "scenario",
@@ -354,18 +354,18 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 7,
-            "name": "Opening Eshop site url",
+            "line": 6,
+            "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 724000000
+              "duration": 612000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
-            "name": "Should be on Eshop site",
+            "line": 7,
+            "name": "I should be on \"main\" page",
             "result": {
               "status": "passed",
               "duration": 3000000
@@ -374,21 +374,21 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 17,
-            "name": "Clicking on button named \"About\"",
+            "line": 16,
+            "name": "I click on button named \"About\"",
             "result": {
               "status": "passed",
-              "duration": 1173000000
+              "duration": 930000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 18,
-            "name": "Successful redirect on \"http://uiautomation.domain.local/about/\"",
+            "line": 17,
+            "name": "I should be on \"about\" page",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 2000000
             }
           }
         ]
@@ -396,12 +396,12 @@
       {
         "id": "'test-suite---testing-navigation-bar';clicking-on-contact-us-button-opens-contact-us-page",
         "keyword": "Scenario",
-        "line": 28,
-        "name": "Clicking on Contact Us button opens Contact us page",
+        "line": 27,
+        "name": "Clicking on Contact Us button opens Contact Us page",
         "tags": [
           {
             "name": "@navbuttons",
-            "line": 15
+            "line": 14
           }
         ],
         "type": "scenario",
@@ -409,38 +409,38 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 7,
-            "name": "Opening Eshop site url",
+            "line": 6,
+            "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 723000000
+              "duration": 641000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
-            "name": "Should be on Eshop site",
+            "line": 7,
+            "name": "I should be on \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 3000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 17,
-            "name": "Clicking on button named \"Contact Us\"",
+            "line": 16,
+            "name": "I click on button named \"Contact Us\"",
             "result": {
               "status": "passed",
-              "duration": 704000000
+              "duration": 639000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 18,
-            "name": "Successful redirect on \"http://uiautomation.domain.local/contact-us/\"",
+            "line": 17,
+            "name": "I should be on \"contact\" page",
             "result": {
               "status": "passed",
               "duration": 3000000
@@ -449,14 +449,14 @@
         ]
       },
       {
-        "id": "'test-suite---testing-navigation-bar';clicking-on-account-button-opens-my-account-page",
+        "id": "'test-suite---testing-navigation-bar';clicking-on-account-button-opens-account-page",
         "keyword": "Scenario",
-        "line": 29,
-        "name": "Clicking on Account button opens My Account page",
+        "line": 28,
+        "name": "Clicking on Account button opens Account page",
         "tags": [
           {
             "name": "@navbuttons",
-            "line": 15
+            "line": 14
           }
         ],
         "type": "scenario",
@@ -464,38 +464,38 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 7,
-            "name": "Opening Eshop site url",
+            "line": 6,
+            "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 748000000
+              "duration": 644000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
-            "name": "Should be on Eshop site",
+            "line": 7,
+            "name": "I should be on \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 3000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 17,
-            "name": "Clicking on button named \"Account\"",
+            "line": 16,
+            "name": "I click on button named \"Account\"",
             "result": {
               "status": "passed",
-              "duration": 647000000
+              "duration": 556000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 18,
-            "name": "Successful redirect on \"http://uiautomation.domain.local/my-account/\"",
+            "line": 17,
+            "name": "I should be on \"account\" page",
             "result": {
               "status": "passed",
               "duration": 3000000
@@ -506,12 +506,12 @@
       {
         "id": "'test-suite---testing-navigation-bar';clicking-on-cart-button-opens-shopping-cart-page",
         "keyword": "Scenario",
-        "line": 32,
+        "line": 31,
         "name": "Clicking on Cart button opens shopping cart page",
         "tags": [
           {
             "name": "@cartbutton",
-            "line": 31
+            "line": 30
           }
         ],
         "type": "scenario",
@@ -519,18 +519,18 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 7,
-            "name": "Opening Eshop site url",
+            "line": 6,
+            "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 746000000
+              "duration": 690000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
-            "name": "Should be on Eshop site",
+            "line": 7,
+            "name": "I should be on \"main\" page",
             "result": {
               "status": "passed",
               "duration": 2000000
@@ -539,21 +539,21 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 33,
-            "name": "Clicking on button with cart icon",
+            "line": 32,
+            "name": "I click on cart button",
             "result": {
               "status": "passed",
-              "duration": 1199000000
+              "duration": 892000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 34,
-            "name": "Successful redirect on cart page",
+            "line": 33,
+            "name": "I should be on \"cart\" page",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 2000000
             }
           }
         ]

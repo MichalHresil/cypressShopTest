@@ -104,6 +104,6 @@ When('Invalid data provided to form', function(dataTable){
     checkoutpage.fillForm(dataTable)
 })
 
-Then('I should see error message about {string} with data-id {string}', function(errname,err){
+Then('I should see error message about {string} with data-id {string} above form', function(errname,err){
     cy.get(`.woocommerce-error li[data-id='${err}']`).should("exist").and("be.visible")
 })

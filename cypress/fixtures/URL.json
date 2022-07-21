@@ -5,5 +5,8 @@
   "store": "http://uiautomation.domain.local/store/",
   "accessories": "http://uiautomation.domain.local/product-category/accessories/",
   "men": "http://uiautomation.domain.local/product-category/men/",
-  "women": "http://uiautomation.domain.local/product-category/women/"
+  "women": "http://uiautomation.domain.local/product-category/women/",
+  "about": "http://uiautomation.domain.local/about/",
+  "contact": "http://uiautomation.domain.local/contact-us/",
+  "account": "http://uiautomation.domain.local/my-account/"
 }

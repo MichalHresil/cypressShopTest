@@ -1,46 +1,37 @@
 /// <reference types="cypress"/>
 
+// =============================================================================
+// STEPS SETUP
+// =============================================================================
+
+
+// Imports =====================================================================
 import { Given, Then } from "cypress-cucumber-preprocessor/steps"
 import HomePage from "../../../support/pageClasses/HomePage"
 
+// Constants ===================================================================
 const homepage = new HomePage()
 
-//background
 
-Given('Opening Eshop site url', function(){
-    cy.fixture("URL").then(function(url) {
-        this.url = url
-        cy.visit(this.url.homeUrl)
-    })
-})
+// =============================================================================
+// STEPS DEFINITION
+// =============================================================================
 
-Then('Should be on Eshop site', function(){
-    cy.url().should("deep.equal", this.url.homeUrl)
-})
 
-//scenario 1
-Given('Clicking on page logo',function(){
+
+// Clicking on logo opens homepage =============================================
+Given('I click on E-shop page logo',function(){
     homepage.getNavLogo().eq(0).click()
 })
 
-Then('Successful redirect on home page',function(){
-    cy.url().should("deep.equal", this.url.homeUrl)
-})
 
-//scenario outline
-Given('Clicking on button named {string}', function(btnName){
+// Clicking on <btnName> button opens <btnPage> page ===========================
+Given('I click on button named {string}', function(btnName){
     homepage.getButtonNavBarByName(btnName).click()
 })
 
-Then('Successful redirect on {string}', function(url){
-    cy.url().should("deep.equal", url)
-})
 
-//cart scenario
-Given('Clicking on button with cart icon', function(){
+// Clicking on Cart button opens shopping cart page ============================
+Given('I click on cart button', function(){
     homepage.getCartButtonNavBar().click({force:true})
-})
-
-Then('Successful redirect on cart page', function(){
-    cy.url().should("deep.equal", "http://uiautomation.domain.local/cart/")
 })
