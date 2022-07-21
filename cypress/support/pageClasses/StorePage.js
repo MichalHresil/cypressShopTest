@@ -7,16 +7,20 @@ class StorePage {
         return cy.get(".ast-woo-product-category")
     }
 
+    getAllProductNames(){
+        return cy.get('.products li a h2')
+    }
+
     getPriceSelect() {
         return cy.get('select.orderby')
     }
 
     inputMinFilter(number) {
-        cy.get("#min_price").type(`{selectAll}{del}${number}{enter}`, { force: true })
+        return cy.get("#min_price").type(`{selectAll}{del}${number}{enter}`, { force: true })
     }
 
     inputMaxFilter(number) {
-        cy.get("#max_price").type(`{selectAll}{del}${number}{enter}`, { force: true })
+        return cy.get("#max_price").type(`{selectAll}{del}${number}{enter}`, { force: true })
     }
 
     getNoItemsFoundNotice() {
@@ -24,7 +28,15 @@ class StorePage {
     }
 
     getAccessoriesBtn(){
-        cy.get(".product-categories li a").eq(0)
+        return cy.get(".product-categories li a").eq(0)
+    }
+
+    getSearchInput(){
+        return cy.get('input[type="search"]')
+    }
+
+    getSearchBtn(){
+        return cy.get('form[role="search"] button[type="submit"]')
     }
 
     checkProductsFilter(minVal, maxVal) {

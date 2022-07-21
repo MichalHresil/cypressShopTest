@@ -1,92 +1,68 @@
 /// <reference types="cypress"/>
 ///<reference types="cypress-iframe" />
 
-import { Given, Then, And, When } from "cypress-cucumber-preprocessor/steps"
+// =============================================================================
+// STEPS SETUP
+// =============================================================================
+
+// Imports =====================================================================
+import { Then, And, When } from "cypress-cucumber-preprocessor/steps"
 import CheckoutPage from "../../../support/pageClasses/CheckoutPage"
-import HomePage from "../../../support/pageClasses/HomePage"
-import CartPage from "../../../support/pageClasses/CartPage"
 import 'cypress-iframe'
 
-const homepage = new HomePage()
+// Constants ===================================================================
 const checkoutpage = new CheckoutPage()
-const cartpage = new CartPage()
-
-//background
-Given('Visit main page', function () {
-    cy.fixture("URL").then(function (url) {
-        this.url = url
-        cy.visit(this.url.homeUrl)
-    })
-
-    cy.fixture("cartItems").then(function (obj) {
-        this.items = obj.items
-    })
-})
-
-And('Adding item to the cart', function () {
-    homepage.addItemToCartHomepage(this.items[0].name, this.items[0].quantity)
-    homepage.getCartButtonNavBar().click({ force: true })
-})
-
-And('Proceeding to checkout', function () {
-    cartpage.getCheckoutButton().click({ force: true })
-})
-
-Then('Successful redirect to checkout page', function () {
-    cy.url().should("deep.equal", this.url.checkoutUrl)
-})
 
 
-//Selecting different address opens another form
-When('Checking the different address button', function () {
+// =============================================================================
+// STEP DEFINITIONS
+// =============================================================================
+
+
+// Selecting different address opens another form ==============================
+When('I check the different address button', function () {
     checkoutpage.getDiffAddressCheckBox().check().should("be.checked")
 })
 
-Then('Second address form should be visible', function () {
+Then('I should see second address form', function () {
     checkoutpage.getShippingAddressInput().should("be.visible")
 })
 
-//login form show
-When('Clicking on button with text click here to login', function () {
+// Show login form =============================================================
+When("I click on button with text \'Click here to login\'", function () {
     checkoutpage.getLoginInputUsername().should("not.be.visible")
     checkoutpage.getLoginElement().click()
 
 })
 
-Then('Login form should be visible', function () {
+Then('I should see login form', function () {
     checkoutpage.getLoginInputUsername().should("be.visible")
 })
 
-//Valid checkout form input provided but with invalid card info
-
-When('Valid form data provided', function (dataTable) {
+// Valid checkout form input provided but with invalid payment info ===============
+When('I fill order form with data', function (dataTable) {
     checkoutpage.fillForm(dataTable)
 })
 
-And('Invalid card information is provided', function (dataTable) {
+And('I fill payment form with data', function (dataTable) {
     checkoutpage.fillCard(dataTable)
 })
 
-And('Clicking on place order button', function () {
+And('I click on the button with text \'place order\'', function () {
     checkoutpage.getPlaceOrderBtn().click()
 })
 
-Then('Error message should be visible', function () {
+Then('I should see error message under payment form', function () {
     checkoutpage.getPaymentErrorBox().should("be.visible")
     checkoutpage.getPaymentErrorBox().should("contain.text", "The card number is not a valid credit card number.")
 })
 
-//Valid form input  and valid payment info plus order summary page testing
-
-And('Valid card information is provided', function (dataTable) {
-    checkoutpage.fillCard(dataTable)
-})
-
-And('Successful redirect to order summary', function () {
+// Valid form input  and valid payment info plus order summary page testing =======
+And('I should be redirected to order summary', function () {
     checkoutpage.getCheckoutDiv().should("be.visible")
 })
 
-Then('Validate data provided by order summary', function () {
+Then('I validate data provided by order summary', function () {
     var subtotal
     var shipping
     var total
@@ -94,7 +70,7 @@ Then('Validate data provided by order summary', function () {
 
     checkoutpage.getCheckoutDiv().should("contain.text", "Thank you. Your order has been received.")
 
-    cy.get("tfoot th").each(($el, index, $list) => {
+    cy.get("tfoot th").each(($el) => {
         const text = $el.text()
         if (text.includes("Subtotal")) {
             subtotal = parseInt($el.next().text().replace(/^\D+/g, ""))
@@ -107,7 +83,7 @@ Then('Validate data provided by order summary', function () {
         }
     })
 
-    checkoutpage.getAllItemPriceElements().each(($el, index, $list) => {
+    checkoutpage.getAllItemPriceElements().each(($el) => {
         prices += parseInt($el.text().replace(/^\D+/g, ""))
         expect(prices).to.eql(subtotal)
         expect(subtotal + shipping).to.eql(total)
@@ -123,13 +99,11 @@ Then('Validate data provided by order summary', function () {
 
 })
 
-//invalid form data
-
+// Testing form invalid data ===================================================
 When('Invalid data provided to form', function(dataTable){
     checkoutpage.fillForm(dataTable)
 })
 
-
-Then('Error with data-id {string} should be visible', function(err){
+Then('I should see error message about {string} with data-id {string}', function(errname,err){
     cy.get(`.woocommerce-error li[data-id='${err}']`).should("exist").and("be.visible")
 })

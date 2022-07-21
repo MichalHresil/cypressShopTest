@@ -1,6 +1,6 @@
 [
   {
-    "description": "    Testing of the checkout form with valid and invalid data",
+    "description": "    Testing the checkout form with valid and invalid data",
     "keyword": "Feature",
     "name": "Test suite - Checkout form testing",
     "line": 1,
@@ -9,14 +9,14 @@
     "uri": "checkoutForm.feature",
     "elements": [
       {
-        "id": "test-suite---checkout-form-testing;selecting-different-address-opens-another-form",
+        "id": "test-suite---checkout-form-testing;checking-different-address-checkbox-opens-another-form",
         "keyword": "Scenario",
-        "line": 14,
-        "name": "Selecting different address opens another form",
+        "line": 16,
+        "name": "Checking different address checkbox opens another form",
         "tags": [
           {
             "name": "@differentAddress",
-            "line": 13
+            "line": 15
           }
         ],
         "type": "scenario",
@@ -25,37 +25,152 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 7,
-            "name": "Visit main page",
+            "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 1576000000
+              "duration": 1398000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 8,
-            "name": "Adding item to the cart",
+            "name": "I load data \"cartItems\"",
             "result": {
               "status": "passed",
-              "duration": 5051000000
+              "duration": 37000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 9,
-            "name": "Proceeding to checkout",
+            "name": "I put one item to cart",
             "result": {
               "status": "passed",
-              "duration": 1362000000
+              "duration": 4588000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I validate the item is present in cart",
+            "result": {
+              "status": "passed",
+              "duration": 1239000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on proceed to checkout button",
+            "result": {
+              "status": "passed",
+              "duration": 954000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
+            "line": 12,
+            "name": "I should be on \"checkout\" page",
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I check the different address button",
+            "result": {
+              "status": "passed",
+              "duration": 484000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I should see second address form",
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---checkout-form-testing;clicking-on-login-shows-login-form",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Clicking on login shows login form",
+        "tags": [
+          {
+            "name": "@clickToLogin",
+            "line": 21
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to \"main\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I load data \"cartItems\"",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I put one item to cart",
+            "result": {
+              "status": "passed",
+              "duration": 3704000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
             "line": 10,
-            "name": "Successful redirect to checkout page",
+            "name": "I validate the item is present in cart",
+            "result": {
+              "status": "passed",
+              "duration": 723000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on proceed to checkout button",
+            "result": {
+              "status": "passed",
+              "duration": 909000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should be on \"checkout\" page",
             "result": {
               "status": "passed",
               "duration": 33000000
@@ -64,96 +179,21 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 15,
-            "name": "Checking the different address button",
+            "line": 23,
+            "name": "I click on button with text 'Click here to login'",
             "result": {
               "status": "passed",
-              "duration": 347000000
+              "duration": 404000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 16,
-            "name": "Second address form should be visible",
+            "line": 24,
+            "name": "I should see login form",
             "result": {
               "status": "passed",
-              "duration": 48000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "test-suite---checkout-form-testing;clicking-on-login-shows-login-form",
-        "keyword": "Scenario",
-        "line": 20,
-        "name": "Clicking on login shows login form",
-        "tags": [
-          {
-            "name": "@clickToLogin",
-            "line": 19
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "Visit main page",
-            "result": {
-              "status": "passed",
-              "duration": 935000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "Adding item to the cart",
-            "result": {
-              "status": "passed",
-              "duration": 3725000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "Proceeding to checkout",
-            "result": {
-              "status": "passed",
-              "duration": 1162000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 10,
-            "name": "Successful redirect to checkout page",
-            "result": {
-              "status": "passed",
-              "duration": 31000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 21,
-            "name": "Clicking on button with text click here to login",
-            "result": {
-              "status": "passed",
-              "duration": 267000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 22,
-            "name": "Login form should be visible",
-            "result": {
-              "status": "passed",
-              "duration": 46000000
+              "duration": 56000000
             }
           }
         ]
@@ -161,12 +201,12 @@
       {
         "id": "test-suite---checkout-form-testing;valid-checkout-form-input-provided-but-with-invalid-card-info",
         "keyword": "Scenario",
-        "line": 26,
+        "line": 28,
         "name": "Valid checkout form input provided but with invalid card info",
         "tags": [
           {
             "name": "@InvalidCardInfo",
-            "line": 25
+            "line": 27
           }
         ],
         "type": "scenario",
@@ -175,40 +215,60 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 7,
-            "name": "Visit main page",
+            "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 907000000
+              "duration": 979000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 8,
-            "name": "Adding item to the cart",
+            "name": "I load data \"cartItems\"",
             "result": {
               "status": "passed",
-              "duration": 3641000000
+              "duration": 4000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 9,
-            "name": "Proceeding to checkout",
+            "name": "I put one item to cart",
             "result": {
               "status": "passed",
-              "duration": 1030000000
+              "duration": 3688000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I validate the item is present in cart",
+            "result": {
+              "status": "passed",
+              "duration": 777000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on proceed to checkout button",
+            "result": {
+              "status": "passed",
+              "duration": 911000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 10,
-            "name": "Successful redirect to checkout page",
+            "line": 12,
+            "name": "I should be on \"checkout\" page",
             "result": {
               "status": "passed",
-              "duration": 36000000
+              "duration": 34000000
             }
           },
           {
@@ -241,11 +301,11 @@
               }
             ],
             "keyword": "When ",
-            "line": 27,
-            "name": "Valid form data provided",
+            "line": 29,
+            "name": "I fill order form with data",
             "result": {
               "status": "passed",
-              "duration": 2966000000
+              "duration": 3049000000
             }
           },
           {
@@ -261,7 +321,7 @@
                   },
                   {
                     "cells": [
-                      "4242424242424542",
+                      "8142756742424562",
                       "08/28",
                       "000"
                     ]
@@ -270,31 +330,31 @@
               }
             ],
             "keyword": "And ",
-            "line": 31,
-            "name": "Invalid card information is provided",
+            "line": 33,
+            "name": "I fill payment form with data",
             "result": {
               "status": "passed",
-              "duration": 1156000000
+              "duration": 1291000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 35,
-            "name": "Clicking on place order button",
+            "line": 37,
+            "name": "I click on the button with text 'place order'",
             "result": {
               "status": "passed",
-              "duration": 232000000
+              "duration": 227000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 36,
-            "name": "Error message should be visible",
+            "line": 38,
+            "name": "I should see error message under payment form",
             "result": {
               "status": "passed",
-              "duration": 92000000
+              "duration": 77000000
             }
           }
         ]
@@ -302,12 +362,12 @@
       {
         "id": "test-suite---checkout-form-testing;valid-form-input--and-valid-payment-info-plus-order-summary-page-testing",
         "keyword": "Scenario",
-        "line": 40,
+        "line": 42,
         "name": "Valid form input  and valid payment info plus order summary page testing",
         "tags": [
           {
             "name": "@ValidCardInfoAndValidation",
-            "line": 39
+            "line": 41
           }
         ],
         "type": "scenario",
@@ -316,40 +376,60 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 7,
-            "name": "Visit main page",
+            "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 843000000
+              "duration": 1199000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 8,
-            "name": "Adding item to the cart",
+            "name": "I load data \"cartItems\"",
             "result": {
               "status": "passed",
-              "duration": 3519000000
+              "duration": 4000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 9,
-            "name": "Proceeding to checkout",
+            "name": "I put one item to cart",
             "result": {
               "status": "passed",
-              "duration": 868000000
+              "duration": 3317000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I validate the item is present in cart",
+            "result": {
+              "status": "passed",
+              "duration": 769000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on proceed to checkout button",
+            "result": {
+              "status": "passed",
+              "duration": 967000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 10,
-            "name": "Successful redirect to checkout page",
+            "line": 12,
+            "name": "I should be on \"checkout\" page",
             "result": {
               "status": "passed",
-              "duration": 32000000
+              "duration": 41000000
             }
           },
           {
@@ -382,11 +462,11 @@
               }
             ],
             "keyword": "When ",
-            "line": 41,
-            "name": "Valid form data provided",
+            "line": 43,
+            "name": "I fill order form with data",
             "result": {
               "status": "passed",
-              "duration": 3086000000
+              "duration": 3031000000
             }
           },
           {
@@ -411,54 +491,54 @@
               }
             ],
             "keyword": "And ",
-            "line": 45,
-            "name": "Valid card information is provided",
+            "line": 47,
+            "name": "I fill payment form with data",
             "result": {
               "status": "passed",
-              "duration": 1381000000
+              "duration": 1298000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 49,
-            "name": "Clicking on place order button",
+            "line": 51,
+            "name": "I click on the button with text 'place order'",
             "result": {
               "status": "passed",
-              "duration": 238000000
+              "duration": 274000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 50,
-            "name": "Successful redirect to order summary",
+            "line": 52,
+            "name": "I should be redirected to order summary",
             "result": {
               "status": "passed",
-              "duration": 7939000000
+              "duration": 8005000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 51,
-            "name": "Validate data provided by order summary",
+            "line": 53,
+            "name": "I validate data provided by order summary",
             "result": {
               "status": "passed",
-              "duration": 128000000
+              "duration": 148000000
             }
           }
         ]
       },
       {
-        "id": "test-suite---checkout-form-testing;invalid-data---\"postcode\"-provided-to-form-and-is-handeled",
+        "id": "test-suite---checkout-form-testing;invalid-data---\"postcode\"-provided-to-form-and-is-handled",
         "keyword": "Scenario",
-        "line": 70,
-        "name": "Invalid data - \"postcode\" provided to form and is handeled",
+        "line": 72,
+        "name": "Invalid data - \"postcode\" provided to form and is handled",
         "tags": [
           {
             "name": "@variousInvalidFormData",
-            "line": 54
+            "line": 56
           }
         ],
         "type": "scenario",
@@ -467,40 +547,60 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 7,
-            "name": "Visit main page",
+            "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 938000000
+              "duration": 1049000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 8,
-            "name": "Adding item to the cart",
+            "name": "I load data \"cartItems\"",
             "result": {
               "status": "passed",
-              "duration": 3515000000
+              "duration": 3000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 9,
-            "name": "Proceeding to checkout",
+            "name": "I put one item to cart",
             "result": {
               "status": "passed",
-              "duration": 1082000000
+              "duration": 3404000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I validate the item is present in cart",
+            "result": {
+              "status": "passed",
+              "duration": 834000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on proceed to checkout button",
+            "result": {
+              "status": "passed",
+              "duration": 1124000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 10,
-            "name": "Successful redirect to checkout page",
+            "line": 12,
+            "name": "I should be on \"checkout\" page",
             "result": {
               "status": "passed",
-              "duration": 33000000
+              "duration": 41000000
             }
           },
           {
@@ -533,11 +633,11 @@
               }
             ],
             "keyword": "When ",
-            "line": 56,
-            "name": "Invalid data provided to form",
+            "line": 58,
+            "name": "I fill order form with data",
             "result": {
               "status": "passed",
-              "duration": 2907000000
+              "duration": 3267000000
             }
           },
           {
@@ -562,44 +662,44 @@
               }
             ],
             "keyword": "And ",
-            "line": 60,
-            "name": "Valid card information is provided",
+            "line": 62,
+            "name": "I fill payment form with data",
             "result": {
               "status": "passed",
-              "duration": 1098000000
+              "duration": 1461000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 64,
-            "name": "Clicking on place order button",
+            "line": 66,
+            "name": "I click on the button with text 'place order'",
             "result": {
               "status": "passed",
-              "duration": 256000000
+              "duration": 242000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 66,
-            "name": "Error with data-id \"billing_postcode\" should be visible",
+            "line": 68,
+            "name": "I should see error message about \"postcode\" with data-id \"billing_postcode\"",
             "result": {
               "status": "passed",
-              "duration": 1114000000
+              "duration": 1060000000
             }
           }
         ]
       },
       {
-        "id": "test-suite---checkout-form-testing;invalid-data---\"email\"-provided-to-form-and-is-handeled",
+        "id": "test-suite---checkout-form-testing;invalid-data---\"email\"-provided-to-form-and-is-handled",
         "keyword": "Scenario",
-        "line": 71,
-        "name": "Invalid data - \"email\" provided to form and is handeled",
+        "line": 73,
+        "name": "Invalid data - \"email\" provided to form and is handled",
         "tags": [
           {
             "name": "@variousInvalidFormData",
-            "line": 54
+            "line": 56
           }
         ],
         "type": "scenario",
@@ -608,40 +708,60 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 7,
-            "name": "Visit main page",
+            "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 1204000000
+              "duration": 1022000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 8,
-            "name": "Adding item to the cart",
+            "name": "I load data \"cartItems\"",
             "result": {
               "status": "passed",
-              "duration": 3953000000
+              "duration": 5000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 9,
-            "name": "Proceeding to checkout",
+            "name": "I put one item to cart",
             "result": {
               "status": "passed",
-              "duration": 864000000
+              "duration": 3666000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I validate the item is present in cart",
+            "result": {
+              "status": "passed",
+              "duration": 811000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on proceed to checkout button",
+            "result": {
+              "status": "passed",
+              "duration": 1185000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 10,
-            "name": "Successful redirect to checkout page",
+            "line": 12,
+            "name": "I should be on \"checkout\" page",
             "result": {
               "status": "passed",
-              "duration": 32000000
+              "duration": 50000000
             }
           },
           {
@@ -674,11 +794,11 @@
               }
             ],
             "keyword": "When ",
-            "line": 56,
-            "name": "Invalid data provided to form",
+            "line": 58,
+            "name": "I fill order form with data",
             "result": {
               "status": "passed",
-              "duration": 2753000000
+              "duration": 3193000000
             }
           },
           {
@@ -703,44 +823,44 @@
               }
             ],
             "keyword": "And ",
-            "line": 60,
-            "name": "Valid card information is provided",
+            "line": 62,
+            "name": "I fill payment form with data",
             "result": {
               "status": "passed",
-              "duration": 1170000000
+              "duration": 1568000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 64,
-            "name": "Clicking on place order button",
+            "line": 66,
+            "name": "I click on the button with text 'place order'",
             "result": {
               "status": "passed",
-              "duration": 236000000
+              "duration": 355000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 66,
-            "name": "Error with data-id \"billing_email\" should be visible",
+            "line": 68,
+            "name": "I should see error message about \"email\" with data-id \"billing_email\"",
             "result": {
               "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `.woocommerce-error li[data-id='billing_email']`, but never found it.\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:146:63)\n    at Context.resolveAndRunStepDefinition (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:10837:29)\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:10158:35)"
+              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `.woocommerce-error li[data-id='billing_email']`, but never found it.\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:122:63)\n    at Context.resolveAndRunStepDefinition (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:10911:29)\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:10232:35)"
             }
           }
         ]
       },
       {
-        "id": "test-suite---checkout-form-testing;invalid-data---\"phone-number\"-provided-to-form-and-is-handeled",
+        "id": "test-suite---checkout-form-testing;invalid-data---\"phone-number\"-provided-to-form-and-is-handled",
         "keyword": "Scenario",
-        "line": 72,
-        "name": "Invalid data - \"phone number\" provided to form and is handeled",
+        "line": 74,
+        "name": "Invalid data - \"phone number\" provided to form and is handled",
         "tags": [
           {
             "name": "@variousInvalidFormData",
-            "line": 54
+            "line": 56
           }
         ],
         "type": "scenario",
@@ -749,40 +869,60 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 7,
-            "name": "Visit main page",
+            "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 938000000
+              "duration": 1142000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 8,
-            "name": "Adding item to the cart",
+            "name": "I load data \"cartItems\"",
             "result": {
               "status": "passed",
-              "duration": 4006000000
+              "duration": 4000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 9,
-            "name": "Proceeding to checkout",
+            "name": "I put one item to cart",
             "result": {
               "status": "passed",
-              "duration": 1251000000
+              "duration": 4051000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I validate the item is present in cart",
+            "result": {
+              "status": "passed",
+              "duration": 920000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on proceed to checkout button",
+            "result": {
+              "status": "passed",
+              "duration": 2456000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 10,
-            "name": "Successful redirect to checkout page",
+            "line": 12,
+            "name": "I should be on \"checkout\" page",
             "result": {
               "status": "passed",
-              "duration": 43000000
+              "duration": 47000000
             }
           },
           {
@@ -815,11 +955,11 @@
               }
             ],
             "keyword": "When ",
-            "line": 56,
-            "name": "Invalid data provided to form",
+            "line": 58,
+            "name": "I fill order form with data",
             "result": {
               "status": "passed",
-              "duration": 3360000000
+              "duration": 3413000000
             }
           },
           {
@@ -844,44 +984,44 @@
               }
             ],
             "keyword": "And ",
-            "line": 60,
-            "name": "Valid card information is provided",
+            "line": 62,
+            "name": "I fill payment form with data",
             "result": {
               "status": "passed",
-              "duration": 1426000000
+              "duration": 1591000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 64,
-            "name": "Clicking on place order button",
+            "line": 66,
+            "name": "I click on the button with text 'place order'",
             "result": {
               "status": "passed",
-              "duration": 293000000
+              "duration": 276000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 66,
-            "name": "Error with data-id \"billing_phone\" should be visible",
+            "line": 68,
+            "name": "I should see error message about \"phone number\" with data-id \"billing_phone\"",
             "result": {
               "status": "passed",
-              "duration": 1239000000
+              "duration": 1201000000
             }
           }
         ]
       },
       {
-        "id": "test-suite---checkout-form-testing;invalid-data---\"address(non-breaking-space)\"-provided-to-form-and-is-handeled",
+        "id": "test-suite---checkout-form-testing;invalid-data---\"address(non-breaking-space)\"-provided-to-form-and-is-handled",
         "keyword": "Scenario",
-        "line": 73,
-        "name": "Invalid data - \"address(non breaking space)\" provided to form and is handeled",
+        "line": 75,
+        "name": "Invalid data - \"address(non breaking space)\" provided to form and is handled",
         "tags": [
           {
             "name": "@variousInvalidFormData",
-            "line": 54
+            "line": 56
           }
         ],
         "type": "scenario",
@@ -890,40 +1030,60 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 7,
-            "name": "Visit main page",
+            "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 1006000000
+              "duration": 1182000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 8,
-            "name": "Adding item to the cart",
+            "name": "I load data \"cartItems\"",
             "result": {
               "status": "passed",
-              "duration": 3917000000
+              "duration": 4000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 9,
-            "name": "Proceeding to checkout",
+            "name": "I put one item to cart",
             "result": {
               "status": "passed",
-              "duration": 965000000
+              "duration": 3335000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I validate the item is present in cart",
+            "result": {
+              "status": "passed",
+              "duration": 729000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on proceed to checkout button",
+            "result": {
+              "status": "passed",
+              "duration": 917000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 10,
-            "name": "Successful redirect to checkout page",
+            "line": 12,
+            "name": "I should be on \"checkout\" page",
             "result": {
               "status": "passed",
-              "duration": 46000000
+              "duration": 31000000
             }
           },
           {
@@ -956,11 +1116,11 @@
               }
             ],
             "keyword": "When ",
-            "line": 56,
-            "name": "Invalid data provided to form",
+            "line": 58,
+            "name": "I fill order form with data",
             "result": {
               "status": "passed",
-              "duration": 3546000000
+              "duration": 2908000000
             }
           },
           {
@@ -985,44 +1145,44 @@
               }
             ],
             "keyword": "And ",
-            "line": 60,
-            "name": "Valid card information is provided",
+            "line": 62,
+            "name": "I fill payment form with data",
             "result": {
               "status": "passed",
-              "duration": 1437000000
+              "duration": 1297000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 64,
-            "name": "Clicking on place order button",
+            "line": 66,
+            "name": "I click on the button with text 'place order'",
             "result": {
               "status": "passed",
-              "duration": 309000000
+              "duration": 288000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 66,
-            "name": "Error with data-id \"billing_address_1\" should be visible",
+            "line": 68,
+            "name": "I should see error message about \"address(non breaking space)\" with data-id \"billing_address_1\"",
             "result": {
               "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `.woocommerce-error li[data-id='billing_address_1']`, but never found it.\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:146:63)\n    at Context.resolveAndRunStepDefinition (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:10837:29)\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:10158:35)"
+              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `.woocommerce-error li[data-id='billing_address_1']`, but never found it.\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:122:63)\n    at Context.resolveAndRunStepDefinition (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:10911:29)\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\checkout_testing\\checkoutForm.feature:10232:35)"
             }
           }
         ]
       },
       {
-        "id": "test-suite---checkout-form-testing;invalid-data---\"empty-address\"-provided-to-form-and-is-handeled",
+        "id": "test-suite---checkout-form-testing;invalid-data---\"empty-address\"-provided-to-form-and-is-handled",
         "keyword": "Scenario",
-        "line": 74,
-        "name": "Invalid data - \"empty address\" provided to form and is handeled",
+        "line": 76,
+        "name": "Invalid data - \"empty address\" provided to form and is handled",
         "tags": [
           {
             "name": "@variousInvalidFormData",
-            "line": 54
+            "line": 56
           }
         ],
         "type": "scenario",
@@ -1031,40 +1191,60 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 7,
-            "name": "Visit main page",
+            "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 1305000000
+              "duration": 1240000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 8,
-            "name": "Adding item to the cart",
+            "name": "I load data \"cartItems\"",
             "result": {
               "status": "passed",
-              "duration": 4462000000
+              "duration": 5000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 9,
-            "name": "Proceeding to checkout",
+            "name": "I put one item to cart",
             "result": {
               "status": "passed",
-              "duration": 1174000000
+              "duration": 3934000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I validate the item is present in cart",
+            "result": {
+              "status": "passed",
+              "duration": 862000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on proceed to checkout button",
+            "result": {
+              "status": "passed",
+              "duration": 1757000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 10,
-            "name": "Successful redirect to checkout page",
+            "line": 12,
+            "name": "I should be on \"checkout\" page",
             "result": {
               "status": "passed",
-              "duration": 60000000
+              "duration": 46000000
             }
           },
           {
@@ -1097,11 +1277,11 @@
               }
             ],
             "keyword": "When ",
-            "line": 56,
-            "name": "Invalid data provided to form",
+            "line": 58,
+            "name": "I fill order form with data",
             "result": {
               "status": "passed",
-              "duration": 3246000000
+              "duration": 2555000000
             }
           },
           {
@@ -1126,31 +1306,31 @@
               }
             ],
             "keyword": "And ",
-            "line": 60,
-            "name": "Valid card information is provided",
+            "line": 62,
+            "name": "I fill payment form with data",
             "result": {
               "status": "passed",
-              "duration": 1612000000
+              "duration": 1261000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 64,
-            "name": "Clicking on place order button",
+            "line": 66,
+            "name": "I click on the button with text 'place order'",
             "result": {
               "status": "passed",
-              "duration": 319000000
+              "duration": 238000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 66,
-            "name": "Error with data-id \"billing_address_1\" should be visible",
+            "line": 68,
+            "name": "I should see error message about \"empty address\" with data-id \"billing_address_1\"",
             "result": {
               "status": "passed",
-              "duration": 1081000000
+              "duration": 1058000000
             }
           }
         ]

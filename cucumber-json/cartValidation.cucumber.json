@@ -1,22 +1,22 @@
 [
   {
-    "description": "    Validating, if all elements on cart page are handeled corectly and if it is \n    possible to proceed to checkout",
+    "description": "    Validating, if all elements on cart page are handled corectly and if it is\n    possible to proceed to checkout",
     "keyword": "Feature",
-    "name": "Validating various functions of the cart page",
+    "name": "Test suite - validating cart page",
     "line": 1,
-    "id": "validating-various-functions-of-the-cart-page",
+    "id": "test-suite---validating-cart-page",
     "tags": [],
     "uri": "cartValidation.feature",
     "elements": [
       {
-        "id": "validating-various-functions-of-the-cart-page;put-one-item-in-cart-and-proceed-checkout",
+        "id": "test-suite---validating-cart-page;adding-one-item-to-cart-and-proceeding-to-checkout",
         "keyword": "Scenario",
-        "line": 11,
-        "name": "Put one item in cart and proceed checkout",
+        "line": 12,
+        "name": "Adding one item to cart and proceeding to checkout",
         "tags": [
           {
             "name": "@checkoutTest",
-            "line": 10
+            "line": 11
           }
         ],
         "type": "scenario",
@@ -25,80 +25,90 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 7,
-            "name": "Visit main page",
+            "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 1817000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "Load data",
-            "result": {
-              "status": "passed",
-              "duration": 18000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 12,
-            "name": "Put one item into cart",
-            "result": {
-              "status": "passed",
-              "duration": 4065000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 13,
-            "name": "Validate the item is present in cart",
-            "result": {
-              "status": "passed",
-              "duration": 734000000
+              "duration": 1245000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 14,
-            "name": "Enter nonexistent coupon code",
+            "line": 8,
+            "name": "I load data \"cartItems\"",
             "result": {
               "status": "passed",
-              "duration": 461000000
+              "duration": 25000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should be on \"main\" page",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I put one item to cart",
+            "result": {
+              "status": "passed",
+              "duration": 3987000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I validate the item is present in cart",
+            "result": {
+              "status": "passed",
+              "duration": 1137000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 15,
-            "name": "Validate nonexistent coupon is handeled",
+            "name": "I enter nonexistent coupon code",
             "result": {
               "status": "passed",
-              "duration": 194000000
+              "duration": 713000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 16,
-            "name": "Clicking on button to proceed to checkout",
+            "name": "I validate that nonexistent coupon is handled",
             "result": {
               "status": "passed",
-              "duration": 892000000
+              "duration": 223000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I click on proceed to checkout button",
+            "result": {
+              "status": "passed",
+              "duration": 1479000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 17,
-            "name": "Successful redirect to checkout form",
+            "line": 18,
+            "name": "I should be on \"checkout\" page",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 46000000
             }
           }
         ]

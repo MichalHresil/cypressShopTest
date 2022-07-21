@@ -1,17 +1,18 @@
-Feature: Validating various functions of the cart page
+Feature: Test suite - validating cart page
 
-    Validating, if all elements on cart page are handeled corectly and if it is 
+    Validating, if all elements on cart page are handled corectly and if it is
     possible to proceed to checkout
 
-    Background: Load main page and testing data from json
-        Given Visit main page
-        Then Load data
+    Background: Loading main page and testing if page was loaded correctly
+        Given I navigate to "main" page
+        And I load data "cartItems"
+        Then I should be on "main" page
 
     @checkoutTest
-    Scenario: Put one item in cart and proceed checkout
-        Given Put one item into cart
-        When Validate the item is present in cart
-        And Enter nonexistent coupon code
-        And Validate nonexistent coupon is handeled
-        And Clicking on button to proceed to checkout
-        Then Successful redirect to checkout form
+    Scenario: Adding one item to cart and proceeding to checkout
+        Given I put one item to cart
+        When I validate the item is present in cart
+        And I enter nonexistent coupon code
+        And I validate that nonexistent coupon is handled
+        And I click on proceed to checkout button
+        Then I should be on "checkout" page

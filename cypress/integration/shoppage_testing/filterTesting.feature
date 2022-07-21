@@ -1,16 +1,17 @@
-Feature: Testing Store page navigation and filtering
+Feature: Test suite - Store page navigation and filtering
 
-    Testing, if filtering items in shop returns expected output
+    Testing functionalities of store page, such as searching
+    and filtering
 
-    Background: Visit store page
-        Given Open store page on store url
-        Then Should be on store url
+    Background: Navigate to store page
+        Given I navigate to "store" page
+        Then I should be on "store" page
 
     @filtermaxSet
     Scenario Outline: Setting min value to "<min>" and max value to "<max>"
-        Given Setting filter to min value of "<min>" and max value of "<max>"
-        And Sorting items from high to low price
-        Then Only items with price between "<min>" and "<max>" should be present
+        Given I set the filter to in value of "<min>" and max value of "<max>"
+        And I sort the items in descending order
+        Then I should only see items with price between "<min>" and "<max>"
 
         Examples:
             | min | max |
@@ -20,8 +21,30 @@ Feature: Testing Store page navigation and filtering
 
 
     @filterAccessories
-    Scenario: Filtering accessories shows only accessory items
-        Given Clicking on accessories filter button
-        And Successful redirect on accessories page
-        Then Only accesory type items should be present
+    Scenario Outline: Filtering accessories shows only "<type>" items
+        Given I click on filter button with name "<type>"
+        And I should be on "<type>" page
+        Then I should only see items with category type "<type>"
 
+        Examples:
+            | type        |
+            | Men         |
+            | Women       |
+            | Accessories |
+
+
+    @searchForItem
+    Scenario Outline: Searching for "<name>" shows only items with word "<name>" in it
+        Given I insert the word "<name>" into search input
+        And I click on search button
+        Then I should only see names containing the word "<name>"
+
+        Examples:
+            | name     |
+            | jeans    |
+            | hoodie   |
+            | tshirt   |
+            | bag      |
+            | shoes    |
+            | bracelet |
+            | purse    |

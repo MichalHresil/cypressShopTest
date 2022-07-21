@@ -1,22 +1,22 @@
 [
   {
-    "description": "    Testing, if filtering items in shop returns expected output",
+    "description": "    Testing functionalities of store page, such as searching\n    and filtering",
     "keyword": "Feature",
-    "name": "Testing Store page navigation and filtering",
+    "name": "Test suite - Store page navigation and filtering",
     "line": 1,
-    "id": "testing-store-page-navigation-and-filtering",
+    "id": "test-suite---store-page-navigation-and-filtering",
     "tags": [],
     "uri": "filterTesting.feature",
     "elements": [
       {
-        "id": "testing-store-page-navigation-and-filtering;setting-min-value-to-\"110\"-and-max-value-to-\"140\"",
+        "id": "test-suite---store-page-navigation-and-filtering;setting-min-value-to-\"110\"-and-max-value-to-\"140\"",
         "keyword": "Scenario",
-        "line": 17,
+        "line": 18,
         "name": "Setting min value to \"110\" and max value to \"140\"",
         "tags": [
           {
             "name": "@filtermaxSet",
-            "line": 9
+            "line": 10
           }
         ],
         "type": "scenario",
@@ -24,93 +24,28 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 6,
-            "name": "Open store page on store url",
+            "line": 7,
+            "name": "I navigate to \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 912000000
+              "duration": 1118000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
-            "name": "Should be on store url",
+            "line": 8,
+            "name": "I should be on \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 12000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 11,
-            "name": "Setting filter to min value of \"110\" and max value of \"140\"",
-            "result": {
-              "status": "passed",
-              "duration": 1369000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
             "line": 12,
-            "name": "Sorting items from high to low price",
-            "result": {
-              "status": "passed",
-              "duration": 143000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 13,
-            "name": "Only items with price between \"110\" and \"140\" should be present",
-            "result": {
-              "status": "passed",
-              "duration": 31000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "testing-store-page-navigation-and-filtering;setting-min-value-to-\"120\"-and-max-value-to-\"120\"",
-        "keyword": "Scenario",
-        "line": 18,
-        "name": "Setting min value to \"120\" and max value to \"120\"",
-        "tags": [
-          {
-            "name": "@filtermaxSet",
-            "line": 9
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 6,
-            "name": "Open store page on store url",
-            "result": {
-              "status": "passed",
-              "duration": 1370000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 7,
-            "name": "Should be on store url",
-            "result": {
-              "status": "passed",
-              "duration": 11000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 11,
-            "name": "Setting filter to min value of \"120\" and max value of \"120\"",
+            "name": "I set the filter to in value of \"110\" and max value of \"140\"",
             "result": {
               "status": "passed",
               "duration": 1317000000
@@ -119,34 +54,34 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 12,
-            "name": "Sorting items from high to low price",
+            "line": 13,
+            "name": "I sort the items in descending order",
             "result": {
               "status": "passed",
-              "duration": 140000000
+              "duration": 127000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 13,
-            "name": "Only items with price between \"120\" and \"120\" should be present",
+            "line": 14,
+            "name": "I should only see items with price between \"110\" and \"140\"",
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 33000000
             }
           }
         ]
       },
       {
-        "id": "testing-store-page-navigation-and-filtering;setting-min-value-to-\"130\"-and-max-value-to-\"160\"",
+        "id": "test-suite---store-page-navigation-and-filtering;setting-min-value-to-\"120\"-and-max-value-to-\"120\"",
         "keyword": "Scenario",
         "line": 19,
-        "name": "Setting min value to \"130\" and max value to \"160\"",
+        "name": "Setting min value to \"120\" and max value to \"120\"",
         "tags": [
           {
             "name": "@filtermaxSet",
-            "line": 9
+            "line": 10
           }
         ],
         "type": "scenario",
@@ -154,83 +89,18 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 6,
-            "name": "Open store page on store url",
-            "result": {
-              "status": "passed",
-              "duration": 1302000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
             "line": 7,
-            "name": "Should be on store url",
+            "name": "I navigate to \"store\" page",
             "result": {
               "status": "passed",
-              "duration": 8000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 11,
-            "name": "Setting filter to min value of \"130\" and max value of \"160\"",
-            "result": {
-              "status": "passed",
-              "duration": 1341000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "Sorting items from high to low price",
-            "result": {
-              "status": "passed",
-              "duration": 136000000
+              "duration": 1360000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 13,
-            "name": "Only items with price between \"130\" and \"160\" should be present",
-            "result": {
-              "status": "passed",
-              "duration": 77000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "testing-store-page-navigation-and-filtering;filtering-accessories-shows-only-accessory-items",
-        "keyword": "Scenario",
-        "line": 23,
-        "name": "Filtering accessories shows only accessory items",
-        "tags": [
-          {
-            "name": "@filterAccessories",
-            "line": 22
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 6,
-            "name": "Open store page on store url",
-            "result": {
-              "status": "passed",
-              "duration": 1304000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 7,
-            "name": "Should be on store url",
+            "line": 8,
+            "name": "I should be on \"store\" page",
             "result": {
               "status": "passed",
               "duration": 9000000
@@ -239,8 +109,183 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 24,
-            "name": "Clicking on accessories filter button",
+            "line": 12,
+            "name": "I set the filter to in value of \"120\" and max value of \"120\"",
+            "result": {
+              "status": "passed",
+              "duration": 1479000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I sort the items in descending order",
+            "result": {
+              "status": "passed",
+              "duration": 166000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should only see items with price between \"120\" and \"120\"",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---store-page-navigation-and-filtering;setting-min-value-to-\"130\"-and-max-value-to-\"160\"",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Setting min value to \"130\" and max value to \"160\"",
+        "tags": [
+          {
+            "name": "@filtermaxSet",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to \"store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1400000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be on \"store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I set the filter to in value of \"130\" and max value of \"160\"",
+            "result": {
+              "status": "passed",
+              "duration": 1379000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I sort the items in descending order",
+            "result": {
+              "status": "passed",
+              "duration": 129000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should only see items with price between \"130\" and \"160\"",
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---store-page-navigation-and-filtering;filtering-accessories-shows-only-\"men\"-items",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Filtering accessories shows only \"Men\" items",
+        "tags": [
+          {
+            "name": "@filterAccessories",
+            "line": 23
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to \"store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1677000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be on \"store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "I click on filter button with name \"Men\"",
+            "result": {
+              "status": "passed",
+              "duration": 708000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I should be on \"Men\" page",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I should only see items with category type \"Men\"",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---store-page-navigation-and-filtering;filtering-accessories-shows-only-\"women\"-items",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Filtering accessories shows only \"Women\" items",
+        "tags": [
+          {
+            "name": "@filterAccessories",
+            "line": 23
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to \"store\" page",
             "result": {
               "status": "passed",
               "duration": 627000000
@@ -248,9 +293,464 @@
           },
           {
             "arguments": [],
-            "keyword": "And ",
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be on \"store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
             "line": 25,
-            "name": "Successful redirect on accessories page",
+            "name": "I click on filter button with name \"Women\"",
+            "result": {
+              "status": "passed",
+              "duration": 677000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I should be on \"Women\" page",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I should only see items with category type \"Women\"",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError\n    + expected - actual\n\n    -9\n    +3\n\n    at Context.eval (http://uiautomation.domain.local/__cypress/tests?p=cypress\\integration\\shoppage_testing\\filterTesting.feature:179:32)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---store-page-navigation-and-filtering;filtering-accessories-shows-only-\"accessories\"-items",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Filtering accessories shows only \"Accessories\" items",
+        "tags": [
+          {
+            "name": "@filterAccessories",
+            "line": 23
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to \"store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 586000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be on \"store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "I click on filter button with name \"Accessories\"",
+            "result": {
+              "status": "passed",
+              "duration": 640000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I should be on \"Accessories\" page",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I should only see items with category type \"Accessories\"",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---store-page-navigation-and-filtering;searching-for-\"jeans\"-shows-only-items-with-word-\"jeans\"-in-it",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "Searching for \"jeans\" shows only items with word \"jeans\" in it",
+        "tags": [
+          {
+            "name": "@searchForItem",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to \"store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 630000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be on \"store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "I insert the word \"jeans\" into search input",
+            "result": {
+              "status": "passed",
+              "duration": 227000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I click on search button",
+            "result": {
+              "status": "passed",
+              "duration": 616000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "I should only see names containing the word \"jeans\"",
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---store-page-navigation-and-filtering;searching-for-\"hoodie\"-shows-only-items-with-word-\"hoodie\"-in-it",
+        "keyword": "Scenario",
+        "line": 45,
+        "name": "Searching for \"hoodie\" shows only items with word \"hoodie\" in it",
+        "tags": [
+          {
+            "name": "@searchForItem",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to \"store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 602000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be on \"store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "I insert the word \"hoodie\" into search input",
+            "result": {
+              "status": "passed",
+              "duration": 242000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I click on search button",
+            "result": {
+              "status": "passed",
+              "duration": 606000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "I should only see names containing the word \"hoodie\"",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---store-page-navigation-and-filtering;searching-for-\"tshirt\"-shows-only-items-with-word-\"tshirt\"-in-it",
+        "keyword": "Scenario",
+        "line": 46,
+        "name": "Searching for \"tshirt\" shows only items with word \"tshirt\" in it",
+        "tags": [
+          {
+            "name": "@searchForItem",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to \"store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 567000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be on \"store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "I insert the word \"tshirt\" into search input",
+            "result": {
+              "status": "passed",
+              "duration": 233000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I click on search button",
+            "result": {
+              "status": "passed",
+              "duration": 660000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "I should only see names containing the word \"tshirt\"",
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---store-page-navigation-and-filtering;searching-for-\"bag\"-shows-only-items-with-word-\"bag\"-in-it",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Searching for \"bag\" shows only items with word \"bag\" in it",
+        "tags": [
+          {
+            "name": "@searchForItem",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to \"store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 583000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be on \"store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "I insert the word \"bag\" into search input",
+            "result": {
+              "status": "passed",
+              "duration": 197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I click on search button",
+            "result": {
+              "status": "passed",
+              "duration": 553000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "I should only see names containing the word \"bag\"",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---store-page-navigation-and-filtering;searching-for-\"shoes\"-shows-only-items-with-word-\"shoes\"-in-it",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Searching for \"shoes\" shows only items with word \"shoes\" in it",
+        "tags": [
+          {
+            "name": "@searchForItem",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to \"store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 609000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be on \"store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "I insert the word \"shoes\" into search input",
+            "result": {
+              "status": "passed",
+              "duration": 246000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I click on search button",
+            "result": {
+              "status": "passed",
+              "duration": 608000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "I should only see names containing the word \"shoes\"",
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---store-page-navigation-and-filtering;searching-for-\"bracelet\"-shows-only-items-with-word-\"bracelet\"-in-it",
+        "keyword": "Scenario",
+        "line": 49,
+        "name": "Searching for \"bracelet\" shows only items with word \"bracelet\" in it",
+        "tags": [
+          {
+            "name": "@searchForItem",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to \"store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 628000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be on \"store\" page",
             "result": {
               "status": "passed",
               "duration": 11000000
@@ -258,12 +758,97 @@
           },
           {
             "arguments": [],
-            "keyword": "Then ",
-            "line": 26,
-            "name": "Only accesory type items should be present",
+            "keyword": "Given ",
+            "line": 38,
+            "name": "I insert the word \"bracelet\" into search input",
             "result": {
               "status": "passed",
-              "duration": 20000000
+              "duration": 274000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I click on search button",
+            "result": {
+              "status": "passed",
+              "duration": 631000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "I should only see names containing the word \"bracelet\"",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---store-page-navigation-and-filtering;searching-for-\"purse\"-shows-only-items-with-word-\"purse\"-in-it",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "Searching for \"purse\" shows only items with word \"purse\" in it",
+        "tags": [
+          {
+            "name": "@searchForItem",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to \"store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 622000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be on \"store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "I insert the word \"purse\" into search input",
+            "result": {
+              "status": "passed",
+              "duration": 269000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I click on search button",
+            "result": {
+              "status": "passed",
+              "duration": 698000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "I should only see names containing the word \"purse\"",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
             }
           }
         ]

@@ -1,7 +1,9 @@
 {
-  "homeUrl": "http://uiautomation.domain.local/",
-  "cartUrl": "http://uiautomation.domain.local/cart/",
-  "checkoutUrl": "http://uiautomation.domain.local/checkout/",
-  "storeUrl": "http://uiautomation.domain.local/store/",
-  "accessoryUrl": "http://uiautomation.domain.local/product-category/accessories/"
+  "main": "http://uiautomation.domain.local/",
+  "cart": "http://uiautomation.domain.local/cart/",
+  "checkout": "http://uiautomation.domain.local/checkout/",
+  "store": "http://uiautomation.domain.local/store/",
+  "accessories": "http://uiautomation.domain.local/product-category/accessories/",
+  "men": "http://uiautomation.domain.local/product-category/men/",
+  "women": "http://uiautomation.domain.local/product-category/women/"
 }
