@@ -1,0 +1,443 @@
+[
+  {
+    "description": "    Testing of contacting form provided on contact-us page",
+    "keyword": "Feature",
+    "name": "Test suite - testing contact-us page",
+    "line": 1,
+    "id": "test-suite---testing-contact-us-page",
+    "tags": [],
+    "uri": "contactus.feature",
+    "elements": [
+      {
+        "id": "test-suite---testing-contact-us-page;providing-invalid-name-to-form-and-submitting",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Providing invalid name to form and submitting",
+        "tags": [
+          {
+            "name": "@InvalidDataContactForm",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to \"contact\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1332000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be on \"contact\" page",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "subject",
+                      "email",
+                      "message"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "e{backspace}",
+                      "Testing",
+                      "John@mail.cc",
+                      "This is a test message"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I provide data to contact form",
+            "result": {
+              "status": "passed",
+              "duration": 1335000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I click 'SEND MESSAGE' button",
+            "result": {
+              "status": "passed",
+              "duration": 133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should see error on input named \"name\"",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---testing-contact-us-page;providing-invalid-email-to-form-and-submitting",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Providing invalid email to form and submitting",
+        "tags": [
+          {
+            "name": "@InvalidDataContactForm",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to \"contact\" page",
+            "result": {
+              "status": "passed",
+              "duration": 589000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be on \"contact\" page",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "subject",
+                      "email",
+                      "message"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "John",
+                      "Testing",
+                      "fjaiegjaie",
+                      "Test message"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I provide data to contact form",
+            "result": {
+              "status": "passed",
+              "duration": 1107000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I click 'SEND MESSAGE' button",
+            "result": {
+              "status": "passed",
+              "duration": 112000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should see error on input named \"email\"",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---testing-contact-us-page;providing-invalid-email-to-form-and-submitting",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Providing invalid email to form and submitting",
+        "tags": [
+          {
+            "name": "@InvalidDataContactForm",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to \"contact\" page",
+            "result": {
+              "status": "passed",
+              "duration": 516000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be on \"contact\" page",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "subject",
+                      "email",
+                      "message"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "John",
+                      "Testing",
+                      "e{backspace}",
+                      "Test message"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I provide data to contact form",
+            "result": {
+              "status": "passed",
+              "duration": 1091000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I click 'SEND MESSAGE' button",
+            "result": {
+              "status": "passed",
+              "duration": 181000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should see error on input named \"email\"",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---testing-contact-us-page;providing-invalid-message-to-form-and-submitting",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Providing invalid message to form and submitting",
+        "tags": [
+          {
+            "name": "@InvalidDataContactForm",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to \"contact\" page",
+            "result": {
+              "status": "passed",
+              "duration": 531000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be on \"contact\" page",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "subject",
+                      "email",
+                      "message"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "John",
+                      "Testing",
+                      "john@mail.cc",
+                      "e{backspace}"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I provide data to contact form",
+            "result": {
+              "status": "passed",
+              "duration": 1029000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I click 'SEND MESSAGE' button",
+            "result": {
+              "status": "passed",
+              "duration": 115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should see error on input named \"message\"",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-suite---testing-contact-us-page;providing-valid-data-to-contact-form-and-submitting",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Providing valid data to contact form and submitting",
+        "tags": [
+          {
+            "name": "@ValidDataContactForm",
+            "line": 27
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to \"contact\" page",
+            "result": {
+              "status": "passed",
+              "duration": 539000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be on \"contact\" page",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "subject",
+                      "email",
+                      "message"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "John",
+                      "Testing",
+                      "john@mail.cc",
+                      "Test message"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "I provide data to contact form",
+            "result": {
+              "status": "passed",
+              "duration": 1160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I click 'SEND MESSAGE' button",
+            "result": {
+              "status": "passed",
+              "duration": 663000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "Form should be submitted successfully",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

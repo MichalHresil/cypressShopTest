@@ -28,7 +28,7 @@
             "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 1595000000
+              "duration": 1621000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "I load data \"cartItems\"",
             "result": {
               "status": "passed",
-              "duration": 18000000
+              "duration": 28000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "I should be on \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 9000000
             }
           },
           {
@@ -58,7 +58,7 @@
             "name": "I put one item to cart",
             "result": {
               "status": "passed",
-              "duration": 4404000000
+              "duration": 3974000000
             }
           },
           {
@@ -68,7 +68,7 @@
             "name": "I validate the item is present in cart",
             "result": {
               "status": "passed",
-              "duration": 826000000
+              "duration": 825000000
             }
           },
           {
@@ -78,7 +78,7 @@
             "name": "I enter nonexistent coupon code",
             "result": {
               "status": "passed",
-              "duration": 631000000
+              "duration": 484000000
             }
           },
           {
@@ -88,7 +88,7 @@
             "name": "I validate that nonexistent coupon is handled",
             "result": {
               "status": "passed",
-              "duration": 232000000
+              "duration": 219000000
             }
           },
           {
@@ -98,7 +98,7 @@
             "name": "I click on proceed to checkout button",
             "result": {
               "status": "passed",
-              "duration": 959000000
+              "duration": 871000000
             }
           },
           {
@@ -108,7 +108,7 @@
             "name": "I should be on \"checkout\" page",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 4000000
             }
           }
         ]
