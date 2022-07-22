@@ -38,6 +38,22 @@ Given('I navigate to {string} page', function (pageStr) {
             case "accessories":
                 cy.visit(this.url.accessories)
                 break
+            case "men":
+                cy.visit(this.url.men)
+                break
+            case "women":
+                cy.visit(this.url.women)
+                break
+            case "about":
+                cy.visit(this.url.about)
+                break
+            case "contact":
+                cy.visit(this.url.contact)
+                break
+            case "account":
+                cy.visit(this.url.account)
+                break
+
         }
     })
 
