@@ -28,7 +28,7 @@
             "name": "I navigate to \"contact\" page",
             "result": {
               "status": "passed",
-              "duration": 1380000000
+              "duration": 1265000000
             }
           },
           {
@@ -69,7 +69,7 @@
             "name": "I provide data to contact form",
             "result": {
               "status": "passed",
-              "duration": 1259000000
+              "duration": 1258000000
             }
           },
           {
@@ -79,7 +79,7 @@
             "name": "I click 'SEND MESSAGE' button",
             "result": {
               "status": "passed",
-              "duration": 127000000
+              "duration": 119000000
             }
           },
           {
@@ -89,7 +89,7 @@
             "name": "I should see error on input named \"name\"",
             "result": {
               "status": "passed",
-              "duration": 18000000
+              "duration": 19000000
             }
           }
         ]
@@ -114,7 +114,7 @@
             "name": "I navigate to \"contact\" page",
             "result": {
               "status": "passed",
-              "duration": 533000000
+              "duration": 579000000
             }
           },
           {
@@ -124,7 +124,7 @@
             "name": "I should be on \"contact\" page",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 3000000
             }
           },
           {
@@ -155,7 +155,7 @@
             "name": "I provide data to contact form",
             "result": {
               "status": "passed",
-              "duration": 1121000000
+              "duration": 1079000000
             }
           },
           {
@@ -165,7 +165,7 @@
             "name": "I click 'SEND MESSAGE' button",
             "result": {
               "status": "passed",
-              "duration": 115000000
+              "duration": 107000000
             }
           },
           {
@@ -175,7 +175,7 @@
             "name": "I should see error on input named \"email\"",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 8000000
             }
           }
         ]
@@ -200,7 +200,7 @@
             "name": "I navigate to \"contact\" page",
             "result": {
               "status": "passed",
-              "duration": 511000000
+              "duration": 503000000
             }
           },
           {
@@ -210,7 +210,7 @@
             "name": "I should be on \"contact\" page",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 2000000
             }
           },
           {
@@ -241,7 +241,7 @@
             "name": "I provide data to contact form",
             "result": {
               "status": "passed",
-              "duration": 1100000000
+              "duration": 951000000
             }
           },
           {
@@ -251,7 +251,7 @@
             "name": "I click 'SEND MESSAGE' button",
             "result": {
               "status": "passed",
-              "duration": 177000000
+              "duration": 111000000
             }
           },
           {
@@ -261,7 +261,7 @@
             "name": "I should see error on input named \"email\"",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 12000000
             }
           }
         ]
@@ -286,7 +286,7 @@
             "name": "I navigate to \"contact\" page",
             "result": {
               "status": "passed",
-              "duration": 510000000
+              "duration": 730000000
             }
           },
           {
@@ -327,7 +327,7 @@
             "name": "I provide data to contact form",
             "result": {
               "status": "passed",
-              "duration": 1008000000
+              "duration": 979000000
             }
           },
           {
@@ -337,7 +337,7 @@
             "name": "I click 'SEND MESSAGE' button",
             "result": {
               "status": "passed",
-              "duration": 114000000
+              "duration": 122000000
             }
           },
           {
@@ -347,7 +347,7 @@
             "name": "I should see error on input named \"message\"",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 8000000
             }
           }
         ]
@@ -372,7 +372,7 @@
             "name": "I navigate to \"contact\" page",
             "result": {
               "status": "passed",
-              "duration": 548000000
+              "duration": 493000000
             }
           },
           {
@@ -413,7 +413,7 @@
             "name": "I provide data to contact form",
             "result": {
               "status": "passed",
-              "duration": 1136000000
+              "duration": 1087000000
             }
           },
           {
@@ -423,7 +423,7 @@
             "name": "I click 'SEND MESSAGE' button",
             "result": {
               "status": "passed",
-              "duration": 601000000
+              "duration": 554000000
             }
           },
           {
@@ -433,7 +433,7 @@
             "name": "Form should be submitted successfully",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 6000000
             }
           }
         ]
