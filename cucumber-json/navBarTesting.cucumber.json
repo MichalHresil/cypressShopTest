@@ -28,7 +28,7 @@
             "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 1155000000
+              "duration": 1135000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "I click on E-shop page logo",
             "result": {
               "status": "passed",
-              "duration": 799000000
+              "duration": 812000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 724000000
+              "duration": 746000000
             }
           },
           {
@@ -103,7 +103,7 @@
             "name": "I click on button named \"Home\"",
             "result": {
               "status": "passed",
-              "duration": 734000000
+              "duration": 715000000
             }
           },
           {
@@ -113,7 +113,7 @@
             "name": "I should be on \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 2000000
             }
           }
         ]
@@ -138,7 +138,7 @@
             "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 687000000
+              "duration": 708000000
             }
           },
           {
@@ -158,7 +158,7 @@
             "name": "I click on button named \"Store\"",
             "result": {
               "status": "passed",
-              "duration": 671000000
+              "duration": 664000000
             }
           },
           {
@@ -193,7 +193,7 @@
             "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 747000000
+              "duration": 732000000
             }
           },
           {
@@ -203,7 +203,7 @@
             "name": "I should be on \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 4000000
             }
           },
           {
@@ -213,7 +213,7 @@
             "name": "I click on button named \"Men\"",
             "result": {
               "status": "passed",
-              "duration": 785000000
+              "duration": 622000000
             }
           },
           {
@@ -223,7 +223,7 @@
             "name": "I should be on \"men\" page",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 2000000
             }
           }
         ]
@@ -248,7 +248,7 @@
             "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 714000000
+              "duration": 718000000
             }
           },
           {
@@ -268,7 +268,7 @@
             "name": "I click on button named \"Women\"",
             "result": {
               "status": "passed",
-              "duration": 641000000
+              "duration": 613000000
             }
           },
           {
@@ -303,7 +303,7 @@
             "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 709000000
+              "duration": 672000000
             }
           },
           {
@@ -313,7 +313,7 @@
             "name": "I should be on \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 3000000
             }
           },
           {
@@ -323,7 +323,7 @@
             "name": "I click on button named \"Accessories\"",
             "result": {
               "status": "passed",
-              "duration": 677000000
+              "duration": 592000000
             }
           },
           {
@@ -333,7 +333,7 @@
             "name": "I should be on \"accessories\" page",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 7000000
             }
           }
         ]
@@ -358,7 +358,7 @@
             "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 707000000
+              "duration": 674000000
             }
           },
           {
@@ -368,7 +368,7 @@
             "name": "I should be on \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 2000000
             }
           },
           {
@@ -378,7 +378,7 @@
             "name": "I click on button named \"About\"",
             "result": {
               "status": "passed",
-              "duration": 1055000000
+              "duration": 771000000
             }
           },
           {
@@ -388,7 +388,7 @@
             "name": "I should be on \"about\" page",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 6000000
             }
           }
         ]
@@ -413,7 +413,7 @@
             "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 721000000
+              "duration": 694000000
             }
           },
           {
@@ -423,7 +423,7 @@
             "name": "I should be on \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 4000000
             }
           },
           {
@@ -433,7 +433,7 @@
             "name": "I click on button named \"Contact Us\"",
             "result": {
               "status": "passed",
-              "duration": 789000000
+              "duration": 675000000
             }
           },
           {
@@ -443,7 +443,7 @@
             "name": "I should be on \"contact\" page",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 6000000
             }
           }
         ]
@@ -468,7 +468,7 @@
             "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 675000000
+              "duration": 726000000
             }
           },
           {
@@ -488,7 +488,7 @@
             "name": "I click on button named \"Account\"",
             "result": {
               "status": "passed",
-              "duration": 619000000
+              "duration": 585000000
             }
           },
           {
@@ -498,7 +498,7 @@
             "name": "I should be on \"account\" page",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 3000000
             }
           }
         ]
@@ -523,7 +523,7 @@
             "name": "I navigate to \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 669000000
+              "duration": 695000000
             }
           },
           {
@@ -533,7 +533,7 @@
             "name": "I should be on \"main\" page",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 2000000
             }
           },
           {
@@ -543,7 +543,7 @@
             "name": "I click on cart button",
             "result": {
               "status": "passed",
-              "duration": 952000000
+              "duration": 930000000
             }
           },
           {

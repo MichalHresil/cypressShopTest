@@ -29,7 +29,6 @@ Feature: Test suite - Store page navigation and filtering
         Examples:
             | type        |
             | Men         |
-            | Women       |
             | Accessories |
 
 
